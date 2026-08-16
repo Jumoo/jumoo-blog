@@ -10,7 +10,11 @@
   <header>
     <div class="header-inner">
       <h1 class="jumoo"><a href="{{ '/' | url }}">jumoo</a></h1>
-      <nav class="site-nav">
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav">
         <a href="https://jumoo.co.uk/services.php">Services</a>
         <a href="https://jumoo.co.uk/products.php">Products</a>
         <a href="https://jumoo.co.uk/about.php">About</a>
@@ -30,5 +34,6 @@
   <footer>
     <p>We are Jumoo, a digital services company specialising in helping people build evidence based, customer focused, digital services &mdash; if you want to talk about anything you've read here you can email us <a href="mailto:info@jumoo.co.uk">info@jumoo.co.uk</a>, and we will be happy to chat.</p>
   </footer>
+  <script src="{{ '/nav.js' | url }}"></script>
 </body>
 </html>
