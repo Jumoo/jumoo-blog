@@ -6,28 +6,31 @@ over as-is.
 
 ## Writing a new post
 
-Create a new file in `src/posts/`, named after the post's slug (this becomes
-the URL: `/YYYY/slug/`, where `YYYY` comes from the post's `date`):
-
-```md
----
-title: Your post title
-date: 2026-08-16 09:00:00
-tags:
-  - umbraco
-  - uSync
----
-Whatever you want, in markdown. Images referenced as `/images/YYYY/file.png`
-(matching `src/images/YYYY/`).
+```bash
+npm run new-post
 ```
 
-Then:
+Prompts for a title and (optional) comma-separated tags, creates
+`src/posts/your-slug.md` with the frontmatter filled in, and switches to a new
+`post/your-slug` branch (if you were on `main`). You can also pass the title
+and tags directly: `npm run new-post -- "Your post title" "umbraco, uSync"`.
+
+Write the post, then:
 
 ```bash
 git add src/posts/your-slug.md
 git commit -m "your-slug"
-git push
+git push -u origin HEAD
 ```
+
+Open a PR into `main`. The `CI` workflow builds the site to check nothing's
+broken; once the PR is merged, the `Deploy` workflow publishes the live site.
+Posts aren't written directly to `main` — always via a branch + PR.
+
+The post's URL (`/YYYY/slug/`) comes from its `date` (year) and filename
+(slug) — don't rename a post file after publishing, that changes its URL.
+Images go in `src/images/YYYY/`, referenced from post markdown as
+`/images/YYYY/file.ext`.
 
 ## Local preview
 
@@ -53,11 +56,19 @@ Opens at `http://localhost:8080`.
   (navy header, blue footer accent, Lato/Barlow/Pacifico fonts) — no Bootstrap
   or FontAwesome dependency.
 
-## One-time deploy setup (not done yet)
+## CI/CD
 
-1. Push this repo to GitHub.
-2. In the repo settings, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
-3. Push to `main` — the `deploy.yml` workflow builds and publishes the site.
+- **`.github/workflows/ci.yml`** — runs on every PR into `main`: `npm ci` +
+  `npm run build`. This is the required status check on `main`'s branch
+  protection — a PR can't merge if the build is broken.
+- **`.github/workflows/deploy.yml`** — runs on push to `main` (i.e. when a PR
+  merges): builds and publishes to GitHub Pages.
+- Repo: [Jumoo/jumoo-blog](https://github.com/Jumoo/jumoo-blog) (private).
+  `main` is protected — direct pushes are blocked, all changes go through a
+  PR with a passing CI build.
+
+One-time GitHub Pages setup: repo **Settings → Pages**, set **Source** to
+**GitHub Actions**.
 
 ## Custom domain (blog.jumoo.co.uk)
 

@@ -3,6 +3,13 @@
 Kevin's/Jumoo's public blog — a static site (Eleventy) migrated from a legacy
 Hexo site. See [README.md](README.md) for structure and deploy mechanics.
 
+## Workflow
+
+New posts (and other changes) go on a branch, opened as a PR into `main`,
+never pushed directly to `main` — branch protection enforces this. Merging a
+PR is what deploys the site (`deploy.yml` runs on push to `main`). Use
+`npm run new-post` to scaffold a post file and branch — see README.md.
+
 ## Writing a post
 
 - File: `src/posts/<slug>.md` — the filename becomes the URL slug
