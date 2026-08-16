@@ -63,22 +63,33 @@ Opens at `http://localhost:8080`.
   protection — a PR can't merge if the build is broken.
 - **`.github/workflows/deploy.yml`** — runs on push to `main` (i.e. when a PR
   merges): builds and publishes to GitHub Pages.
-- Repo: [Jumoo/jumoo-blog](https://github.com/Jumoo/jumoo-blog) (private).
+- Repo: [Jumoo/jumoo-blog](https://github.com/Jumoo/jumoo-blog) (public —
+  GitHub Pages doesn't support private repos on the Jumoo org's Free plan).
   `main` is protected — direct pushes are blocked, all changes go through a
   PR with a passing CI build.
 
-One-time GitHub Pages setup: repo **Settings → Pages**, set **Source** to
-**GitHub Actions**.
+GitHub Pages is enabled (Source: GitHub Actions) and the custom domain is
+already set to `blog.jumoo.co.uk` in the repo's Pages settings — that's why
+`src/CNAME` exists (Eleventy copies it into `_site/CNAME` on every build, so
+GitHub Pages keeps the custom domain setting even though it deploys from a
+fresh artifact each time).
 
-## Custom domain (blog.jumoo.co.uk)
+## Custom domain cutover (blog.jumoo.co.uk) — not done yet
 
-`src/CNAME` carries the domain through the build (Eleventy copies it to
-`_site/CNAME`, which GitHub Pages reads on every deploy).
+The site is fully built and deploying (currently reachable at
+https://jumoo.github.io/jumoo-blog/, path-prefixed so styling looks broken
+there — that's expected, it's built for root-path serving). `blog.jumoo.co.uk`
+still points at the old host. To cut over:
 
-1. **DNS**: add a `CNAME` record: `blog` → `<github-username>.github.io`.
-2. **GitHub**: repo **Settings → Pages → Custom domain**, enter
-   `blog.jumoo.co.uk`, save. Wait for the DNS check to go green, then tick
-   **Enforce HTTPS**.
+1. **DNS**: at jumoo.co.uk's DNS provider, change (or add) a `CNAME` record:
+   `blog` → `jumoo.github.io`. This replaces whatever record currently points
+   `blog.jumoo.co.uk` at the old Hexo hosting.
+2. Wait for DNS to propagate, then check repo **Settings → Pages** — it
+   should show the domain as verified with an option to **Enforce HTTPS**;
+   tick that once available.
+
+Once DNS points at GitHub, the old site stops being served and this one takes
+over at the same URL.
 
 ## Notes
 
