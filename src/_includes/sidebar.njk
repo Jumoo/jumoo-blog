@@ -1,0 +1,33 @@
+<div class="sidebar-module">
+  <h4>About</h4>
+  <p>We are Jumoo a digital services company, helping people build customer focused, evidence based, digital stuff.</p>
+</div>
+
+<div class="sidebar-module">
+  <h4>Tags</h4>
+  <ul class="tag-list">
+    {% for tag in collections.tagList %}
+    <li><a href="{{ ('/tags/' + (tag | tagSlug) + '/') | url }}">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="sidebar-module">
+  <h4>Archives</h4>
+  <ul class="archive-list">
+    {% for year in collections.years %}
+    <li><a href="{{ ('/archives/' + year + '/') | url }}">{{ year }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="sidebar-module">
+  <h4>Recents</h4>
+  <ul class="recents-list">
+    {% for post in collections.posts %}
+    {% if loop.index <= 5 %}
+    <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>

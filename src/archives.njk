@@ -1,0 +1,14 @@
+---
+layout: base.njk
+pagination:
+  data: collections.years
+  size: 1
+  alias: year
+permalink: "/archives/{{ year }}/"
+eleventyComputed:
+  title: "Archives: {{ year }}"
+---
+<div class="archives">
+{% set posts = collections.posts | byYear(year) %}
+{% include "archive-list.njk" %}
+</div>

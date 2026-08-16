@@ -1,0 +1,14 @@
+---
+layout: base.njk
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+permalink: "/tags/{{ tag | tagSlug }}/"
+eleventyComputed:
+  title: "Tag: {{ tag }}"
+---
+<div class="archives">
+{% set posts = collections.posts | byTag(tag) %}
+{% include "archive-list.njk" %}
+</div>

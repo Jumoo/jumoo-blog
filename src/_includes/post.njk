@@ -1,0 +1,19 @@
+---
+layout: base.njk
+---
+<article class="article-entry">
+  <h1>{{ title }}</h1>
+  <div class="article-meta">
+    <span class="article-date">{{ date | readableDate }}</span>
+  </div>
+  {% if tags.length %}
+  <ul class="article-tag-list">
+    {% for tag in tags %}
+    <li><a href="{{ ('/tags/' + (tag | tagSlug) + '/') | url }}">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <div class="article-content">
+    {{ content | safe }}
+  </div>
+</article>

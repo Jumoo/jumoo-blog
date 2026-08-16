@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "Jumoo Blog" }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Pacifico|Barlow:400,700&display=swap">
+  <link rel="stylesheet" href="{{ '/style.css' | url }}">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1 class="jumoo"><a href="{{ '/' | url }}">jumoo</a></h1>
+      <nav class="site-nav">
+        <a href="https://jumoo.co.uk/services.php">Services</a>
+        <a href="https://jumoo.co.uk/products.php">Products</a>
+        <a href="https://jumoo.co.uk/about.php">About</a>
+        <a href="https://jumoo.co.uk/contact.php">Contact</a>
+        <a href="{{ '/' | url }}">Blog</a>
+      </nav>
+    </div>
+  </header>
+  <div class="page">
+    <main>
+      {{ content | safe }}
+    </main>
+    <aside class="sidebar">
+      {% include "sidebar.njk" %}
+    </aside>
+  </div>
+  <footer>
+    <p>We are Jumoo, a digital services company specialising in helping people build evidence based, customer focused, digital services &mdash; if you want to talk about anything you've read here you can email us <a href="mailto:info@jumoo.co.uk">info@jumoo.co.uk</a>, and we will be happy to chat.</p>
+  </footer>
+</body>
+</html>
