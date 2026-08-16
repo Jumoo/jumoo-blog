@@ -8,7 +8,7 @@ permalink: "/archives/{{ year }}/"
 eleventyComputed:
   title: "Archives: {{ year }}"
 ---
-<div class="archives">
+<div class="archive-page">
 {% set posts = collections.posts | byYear(year) %}
 {% include "archive-list.njk" %}
 </div>

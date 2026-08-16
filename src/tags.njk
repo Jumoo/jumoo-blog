@@ -8,7 +8,7 @@ permalink: "/tags/{{ tag | tagSlug }}/"
 eleventyComputed:
   title: "Tag: {{ tag }}"
 ---
-<div class="archives">
+<div class="archive-page">
 {% set posts = collections.posts | byTag(tag) %}
 {% include "archive-list.njk" %}
 </div>

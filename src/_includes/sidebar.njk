@@ -16,7 +16,7 @@
   <h4>Archives</h4>
   <ul class="archive-list">
     {% for year in collections.years %}
-    <li><a href="{{ ('/archives/' + year + '/') | url }}">{{ year }}</a></li>
+    <li><a href="{{ ('/archives/' + year + '/') | url }}">{{ year }} <span class="sidebar-module-list-count">{{ (collections.posts | byYear(year)).length }}</span></a></li>
     {% endfor %}
   </ul>
 </div>
