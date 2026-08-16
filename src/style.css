@@ -231,22 +231,28 @@ main {
 
 .article-entry h1 {
   margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.article-header-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3em 1em;
+  margin-bottom: 20px;
 }
 
 .article-meta {
   color: var(--muted);
-  margin-bottom: 1em;
 }
 
 .article-tag-list {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  margin: 0 0 1.5em;
+  margin: 0;
   padding: 0;
-}
-
-.article-tag-list li {
-  display: inline-block;
-  margin-right: 1em;
+  gap: 0 1em;
 }
 
 .article-tag-list a::before {
