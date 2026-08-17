@@ -414,6 +414,53 @@ main {
   padding: 0;
 }
 
+/* Prism syntax highlighting (@11ty/eleventy-plugin-syntaxhighlight) */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.token.keyword,
+.token.selector,
+.token.important,
+.token.atrule {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.token.string,
+.token.attr-value,
+.token.char {
+  color: #2a7a3b;
+}
+
+.token.number,
+.token.boolean,
+.token.constant,
+.token.deleted {
+  color: #a05a00;
+}
+
+.token.function,
+.token.class-name {
+  color: var(--blue);
+}
+
+.token.punctuation,
+.token.operator {
+  color: var(--text);
+}
+
+.token.property,
+.token.tag,
+.token.symbol,
+.token.attr-name {
+  color: #a02b6f;
+}
+
 pre.nuget {
   padding: 20px;
   background-color: #000;
