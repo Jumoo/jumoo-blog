@@ -35,8 +35,7 @@ They sync as part of the **Content** group, and they run *before* media and cont
 ordering matters: if a page uses an element, the element needs to exist by the time the page
 arrives.
 
-> **SCREENSHOT NEEDED** — the uSync tree in Settings showing the Library/Element folder with
-> exported elements in it.
+![The uSync folder on disk, with the new Element folder sitting alongside Content, ContentTypes and the rest.](/images/2026/v18-usync-folder-structure.png)
 
 ## Container folders now export on their own
 
