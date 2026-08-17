@@ -118,53 +118,30 @@ values containing a quote, backslash or control character weren't being converte
 all. `uSync.Core.Extensions.JsonTextExtensions` is still there and still behaves the same, but
 every method on it is now obsolete and forwards on.
 
-**And some smaller allocation work** ported forward from v17 — fewer redundant dictionary
-lookups on the hot paths, and internal classes marked `sealed` so the JIT can devirtualize their
-calls.
+## Thanks to Henrik
 
-## One behaviour change worth reading
+Not all of this was us. Two of the changes in 18.1 came in from **Henrik at
+[Impact](https://impact.dk)**<!-- TODO: check with Kevin — "Impact" is inferred from the commit
+email domain (hg@impact.dk), and I don't have Henrik's GitHub handle or surname to link to.
+Drop the agency mention or add the handle as appropriate. -->, who went through
+uSync's hot paths and sent us a pair of very welcome pull requests:
 
-Handler settings now **inherit** from `HandlerDefaults`.
+- [#997](https://github.com/KevinJump/uSync/pull/997) — avoiding a pile of unneeded dictionary
+  operations. The classic "check if the key exists, then go and get it" pattern, done once per
+  item, in code that runs for every item.
+- [#998](https://github.com/KevinJump/uSync/pull/998) — marking uSync's `internal` and `private`
+  classes as `sealed`, so the JIT can devirtualize calls to them instead of going through a
+  virtual dispatch every time, plus a move to .NET's newer `Lock` type.
 
-Previously, if a handler had its own settings block, it ignored `HandlerDefaults` completely —
-you got the handler's block and the built-in defaults, and the set defaults were skipped. That
-has always been surprising. Now a handler's settings are layered *over* the set's defaults, so a
-handler only has to specify what it wants to change:
+Neither of them changes what uSync does at all. They are the kind of change that is easy to
+overlook when you are busy building features and are looking at the same code you have looked at
+for years — and exactly the kind of thing a fresh pair of eyes spots straight away.
 
-```json
-"uSync": {
-  "Sets": {
-    "Default": {
-      "HandlerDefaults": {
-        "GuidNames": true,
-        "Settings": {
-          "CreateOnly": true
-        }
-      },
-      "Handlers": {
-        "contentHandler": {
-          "UseFlatStructure": false
-        }
-      }
-    }
-  }
-}
-```
+They landed on v17 first and are ported forward into 18.1. Thank you Henrik, genuinely.
 
-Under 18.1 the content handler above gets `UseFlatStructure: false` from its own block, *and*
-`GuidNames: true` and `CreateOnly: true` inherited from the defaults. Before, defining that
-block at all meant it got `UseFlatStructure` and nothing else.
-
-The additional `Settings` dictionary is merged key by key, with the handler's own keys winning,
-so a per-key default like `CreateOnly` now cascades properly too.
-
-This is technically a breaking change, so if you have a set that mixes `HandlerDefaults` with
-per-handler blocks, it is worth a look — especially if you were relying on a handler block to
-*reset* things back to the built-in defaults.
-
-While we were in there, `HandlerSettings.Clone()` also stopped dropping `CreateClean` and
-`FullFileOnDifference`, which meant handlers setting either of those in their own block were
-being resolved as `false` regardless of what you wrote.
+> One small note for anyone extending uSync: `SyncHandlerRoot.SyncChangeInfo` is now `sealed` as
+> part of #998. It is still `protected`, so you can construct and return one from an
+> `IsItemCurrentAsync` override exactly as before — you just can't derive from it any more.
 
 ---
 
