@@ -90,9 +90,6 @@ If you are thinking about turning this on, please read
 first — in particular the limitations section, and the note for anyone who has written a custom
 serializer that pulls data in from another item.
 
-> **SCREENSHOT NEEDED** — probably a before/after of an import time on a big site, or the log
-> lines showing `state cache skipped N of M items`. I'll grab one off the test site.
-
 ## The rest of the performance work
 
 The cache is the headline, but it is not the only thing in 18.1.
