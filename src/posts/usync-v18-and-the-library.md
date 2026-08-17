@@ -87,16 +87,18 @@ The rest of v18 is what you would expect from a major version:
 
 The usual rule applies — the major version of uSync matches the major version of Umbraco:
 
-| Umbraco | uSync |
-| --- | --- |
-| v18 | v18 |
-| v17 | v17 |
-| v16 | v16 |
-| v13 | v13 |
+| Umbraco | uSync | Support | End of life |
+| --- | --- | --- | --- |
+| v18 | v18 | STS | 25th June 2027 |
+| v17 | v17 | LTS | 27th November 2028 |
+| v16 | v16 | STS | 12th June 2026 |
+| v13 | v13 | LTS | 14th December 2026 |
 
 v17 is the long term support release, so it will keep getting fixes for a good while yet. If you
 are on v17 and happy, there is no rush. If you are moving to v18 for Elements, uSync is ready
 for you.
+
+*(End of life dates from [Umbraco's LTS/STS page](https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/) — check there for the current schedule.)*
 
 <pre class="nuget">
 dotnet add package uSync
