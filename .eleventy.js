@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 function ordinal(n) {
   const s = ["th", "st", "nd", "rd"];
@@ -14,6 +15,8 @@ function tagSlug(tag) {
 }
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(syntaxHighlight);
+
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/nav.js");
   eleventyConfig.addPassthroughCopy("src/fonts");

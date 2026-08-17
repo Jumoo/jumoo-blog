@@ -397,10 +397,32 @@ main {
   margin: 1.5em auto;
 }
 
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 1.5em 0;
+}
+
+.article-content th,
+.article-content td {
+  padding: 0.6em 1em;
+  text-align: left;
+}
+
+.article-content th {
+  border-bottom: 2px solid var(--navy);
+}
+
+.article-content td {
+  border-bottom: 1px solid var(--border);
+}
+
 .article-content pre {
   background-color: #eee;
   padding: 1em;
   overflow-x: auto;
+  font-size: 12pt;
 }
 
 .article-content code {
@@ -412,6 +434,53 @@ main {
 .article-content pre code {
   background: none;
   padding: 0;
+}
+
+/* Prism syntax highlighting (@11ty/eleventy-plugin-syntaxhighlight) */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.token.keyword,
+.token.selector,
+.token.important,
+.token.atrule {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.token.string,
+.token.attr-value,
+.token.char {
+  color: #2a7a3b;
+}
+
+.token.number,
+.token.boolean,
+.token.constant,
+.token.deleted {
+  color: #a05a00;
+}
+
+.token.function,
+.token.class-name {
+  color: var(--blue);
+}
+
+.token.punctuation,
+.token.operator {
+  color: var(--text);
+}
+
+.token.property,
+.token.tag,
+.token.symbol,
+.token.attr-name {
+  color: #a02b6f;
 }
 
 pre.nuget {
