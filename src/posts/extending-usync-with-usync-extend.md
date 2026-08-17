@@ -132,7 +132,7 @@ you can see the shape of things without the noise.
 
 The example is excluded from release builds, so if you install the package you get the base
 classes and not our imaginary objects. To read it, go and look at
-[the uSync.Extend folder on GitHub](https://github.com/KevinJump/uSync/tree/main/uSync.Extend).
+[the uSync.Extend folder on GitHub](https://github.com/KevinJump/uSync/tree/v18/main/uSync.Extend).
 
 > **SCREENSHOT NEEDED** — the uSync dashboard showing a custom handler group ("My Custom Group")
 > alongside the built in ones, to show what you actually get at the end of this.
