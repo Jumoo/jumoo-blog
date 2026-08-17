@@ -86,7 +86,7 @@ recycles the temp folder (Azure App Service will, and each instance in a scale-o
 the worst that happens is a slow first run.
 
 If you are thinking about turning this on, please read
-[the full write-up in the repo](https://github.com/KevinJump/uSync/blob/main/docs/perf/state-cache.md)
+[the full write-up in the repo](https://github.com/KevinJump/uSync/blob/v18/main/docs/perf/state-cache.md)
 first — in particular the limitations section, and the note for anyone who has written a custom
 serializer that pulls data in from another item.
 
@@ -146,7 +146,7 @@ They landed on v17 first and are ported forward into 18.1. Thank you Henrik, gen
 ---
 
 Full details of everything in this release are in
-[the changelog](https://github.com/KevinJump/uSync/blob/main/CHANGELOG.md).
+[the changelog](https://github.com/KevinJump/uSync/blob/v18/main/CHANGELOG.md).
 
 <pre class="nuget">
 dotnet add package uSync
