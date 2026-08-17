@@ -401,6 +401,7 @@ main {
   background-color: #eee;
   padding: 1em;
   overflow-x: auto;
+  font-size: 12pt;
 }
 
 .article-content code {
