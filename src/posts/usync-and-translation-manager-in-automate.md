@@ -17,6 +17,9 @@ really like people to try them and tell us what breaks.
 
 <pre class="nuget">
 dotnet add package uSync.Automate --prerelease
+</pre>
+
+<pre class="nuget">
 dotnet add package Jumoo.TranslationManager.Automate --prerelease
 </pre>
 
@@ -188,6 +191,9 @@ Both repos are MPL-2.0, so you can also go and read exactly what the actions do.
 
 <pre class="nuget">
 dotnet add package uSync.Automate --prerelease
+</pre>
+
+<pre class="nuget">
 dotnet add package Jumoo.TranslationManager.Automate --prerelease
 </pre>
 
