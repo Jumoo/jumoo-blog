@@ -2,7 +2,7 @@
 title: Deploying Umbraco to Azure with Visual Studio Online
 tags:
   - Tools
-  - umbraco
+  - Umbraco
   - uSync
 date: 2017-10-04 10:50:12
 ---

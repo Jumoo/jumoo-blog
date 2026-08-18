@@ -2,7 +2,7 @@
 title: Translation Manager Feature Roundup
 date: 2026-08-17 11:00:00
 tags:
-  - umbraco
+  - Umbraco
   - translations
 ---
 

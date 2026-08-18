@@ -3,7 +3,7 @@ title: uSync v9 and uSync.Complete v9 are out 🎈
 date: 2021-09-29 10:00:00
 tags:
  - uSync
- - umbraco
+ - Umbraco
 ---
 
 Umbraco 9 is out ! 🎉 and we can all now enjoy the wonderful world of Umbraco running on .Net 5.0.

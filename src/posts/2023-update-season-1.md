@@ -3,7 +3,7 @@ title: 2023 January Package Updates
 date: 2023-01-12 11:00:00
 tags:
 - uSync
-- umbraco
+- Umbraco
 - translations
 ---
 

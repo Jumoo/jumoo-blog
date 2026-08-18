@@ -2,7 +2,7 @@
 title: Deploying Umbraco with Team City & Octopus Deploy
 tags:
   - Tools
-  - umbraco
+  - Umbraco
   - uSync
 date: 2017-10-04 10:50:43
 ---

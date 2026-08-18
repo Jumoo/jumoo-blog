@@ -3,7 +3,7 @@ title: 'Umbraco.localgov: intro'
 tags:
   - Content
   - LocalGov
-  - umbraco
+  - Umbraco
   - web
 date: 2011-10-15 20:07:16
 ---

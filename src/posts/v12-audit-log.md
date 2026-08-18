@@ -3,7 +3,7 @@ title: v12.2 - Audit Logs
 date: 2023-09-27 12:23:00
 tags: 
 - uSync
-- umbraco
+- Umbraco
 ---
 
 New in uSync.Complete v12.2, the uSync Audit log allows you to track what changes are being made to your site from the various uSync tools. This includes Sync-Pack imports, pushing and pulling content and settings between sites, and creation and applying of restore points. 

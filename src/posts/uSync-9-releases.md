@@ -3,7 +3,7 @@ title: uSync 9 release candidate
 date: 2021-07-08 10:42:18
 tags:
  - uSync
- - umbraco
+ - Umbraco
 ---
 
 The Umbraco 9 Release candidate is out 🎉 you can read all about it on the [official Umbraco blog]().

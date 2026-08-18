@@ -3,7 +3,7 @@ title: uSync - a simple database to disk thing for umbraco
 tags:
   - code
   - Tools
-  - umbraco
+  - Umbraco
 date: 2013-03-10 08:43:00
 ---
 

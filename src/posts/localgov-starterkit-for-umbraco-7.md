@@ -3,7 +3,7 @@ title: Localgov Starterkit for Umbraco 7
 tags:
   - code
   - Tools
-  - umbraco
+  - Umbraco
   - UmbracoLocalGov
   - web
 date: 2014-03-01 11:11:55

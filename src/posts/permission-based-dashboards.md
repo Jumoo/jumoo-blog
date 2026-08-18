@@ -2,7 +2,7 @@
 title: Permission based Umbraco dashboards
 date: 2021-01-29 07:27:01
 tags:
-- umbraco
+- Umbraco
 - dev-notes
 - code
 ---

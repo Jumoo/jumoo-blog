@@ -2,7 +2,7 @@
 title: Working with uSync
 tags:
   - Tools
-  - umbraco
+  - Umbraco
   - uSync
 date: 2017-10-04 10:53:22
 ---

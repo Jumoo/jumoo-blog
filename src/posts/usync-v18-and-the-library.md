@@ -3,7 +3,7 @@ title: uSync v18 and the Library
 date: 2026-06-25 10:30:00
 tags:
   - uSync
-  - umbraco
+  - Umbraco
 ---
 
 Umbraco v18 is out, and so is [uSync v18](https://github.com/KevinJump/uSync/releases/tag/v18.0.0).

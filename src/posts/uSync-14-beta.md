@@ -3,7 +3,7 @@ title: uSync v14 Beta
 date: 2024-03-06 16:00:00
 tags:
  - uSync
- - umbraco
+ - Umbraco
 ---
 
 [The Umbraco v14 beta is out!](https://our.umbraco.com/download/releases/1400) (6th March 2024), and as we try to be keep uSync as in sync as we can, we are releasing a beta version to go along with it. 

@@ -2,7 +2,7 @@
 title: uSyncComplete Release
 date: 2019-09-16 13:00:00
 tags:
- - umbraco
+ - Umbraco
  - uSync
 ---
 

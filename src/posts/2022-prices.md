@@ -2,7 +2,7 @@
 title: 2022 Price updates
 date: 2022-08-02 13:00:11
 tags:
- - umbraco
+ - Umbraco
  - uSync
  - translations
 ---

@@ -3,7 +3,7 @@ title: v12.2 - 'Super' Tweaks
 date: 2023-09-27 12:24:00
 tags: 
 - uSync
-- umbraco
+- Umbraco
 ---
 
 Along with all the other amazing features in the new uSync.Complete v12.2 release, we snuck in a few cool little tweaks to make life a little bit smoother for developers and editors using uSync.Complete. 

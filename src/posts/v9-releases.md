@@ -2,7 +2,7 @@
 title: Umbraco v9 package releases
 date: 2021-09-29 15:31:42
 tags:
-- umbraco
+- Umbraco
 ---
 
 Yesterday *(Sept 28th)* [Umbraco v9 was released](https://umbraco.com/blog/umbraco-9-release/) 🎉.

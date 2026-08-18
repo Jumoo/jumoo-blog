@@ -2,7 +2,7 @@
 title: v14.2 - uSync.Complete 🚀
 date: 2024-09-16 14:26:40
 tags:
-  - umbraco
+  - Umbraco
   - uSync
 ---
 

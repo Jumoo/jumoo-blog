@@ -2,7 +2,7 @@
 title: uSync and Translation Manager in Automate
 date: 2026-08-18 14:00:00
 tags:
-  - umbraco
+  - Umbraco
   - uSync
   - translations
 ---
