@@ -2,7 +2,7 @@
 title: uSync PeopleEdition - Beta 1
 date: 2019-08-08 11:54:59
 tags:
- - umbraco
+ - Umbraco
  - uSync
 ---
 

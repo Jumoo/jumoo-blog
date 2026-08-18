@@ -3,7 +3,7 @@ title: uSync.Complete Agency Licence
 date: 2020-01-19 14:00:00
 tags: 
  - uSync
- - umbraco
+ - Umbraco
 ---
 
 To celebrate uSync’s 7th birthday (and because quite a few people have asked us about it), we are launching the uSync.Complete agency licence. It's an annual subscription which allows you unlimited use of uSync within your company or agency. 

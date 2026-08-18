@@ -2,7 +2,7 @@
 title: uSync.Platform.Beta
 date: 2022-08-12 06:10:01
 tags:
-- umbraco
+- Umbraco
 - uSync
 ---
 # Platform tools from uSync ♾️

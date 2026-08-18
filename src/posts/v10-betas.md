@@ -3,7 +3,7 @@ title: uSync Beta 🧪 releases for Umbraco 10
 date: 2022-05-17 10:00:00
 tags:
  - uSync
- - umbraco
+ - Umbraco
 ---
 
 If you missed it [The Umbraco 10 release candidate is out](https://umbraco.com/blog/umbraco-10-release-candidate/), and with it a whole slew of updates to Umbraco including support for SQLite and .Net 6. 

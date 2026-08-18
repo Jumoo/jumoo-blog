@@ -2,7 +2,7 @@
 title: uSync 8.7 Release Candidate
 date: 2020-08-26 10:00:00
 tags: 
- - umbraco
+ - Umbraco
  - uSync 
 ---
 

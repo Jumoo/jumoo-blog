@@ -1,7 +1,7 @@
 ---
 title: Umbraco – Intranet Authentication
 tags:
-  - umbraco
+  - Umbraco
 date: 2011-11-20 07:58:23
 ---
 

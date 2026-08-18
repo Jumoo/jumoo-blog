@@ -2,7 +2,7 @@
 title: uSync 9.0.4 releases
 date: 2021-11-18 10:00:00
 tags:
-- umbraco
+- Umbraco
 - uSync
 ---
 

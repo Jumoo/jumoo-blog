@@ -2,7 +2,7 @@
 title: New! Subscription Pricing Models
 date: 2023-10-01 09:22:01
 tags:
-- umbraco
+- Umbraco
 - uSync
 - translations
 ---

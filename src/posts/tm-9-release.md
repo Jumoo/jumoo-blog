@@ -2,7 +2,7 @@
 title: Translation Manager v9 is out 🎈
 date: 2021-09-29 09:55:00
 tags:
-- umbraco
+- Umbraco
 - translations
 ---
 Umbraco 9 is out ! 🎉 and we can all now enjoy the wonderful world of Umbraco running on .Net 5.0.

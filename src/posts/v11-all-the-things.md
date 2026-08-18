@@ -3,7 +3,7 @@ title: v11 all the things
 date: 2022-12-02 10:00:00
 tags:
 - uSync
-- umbraco
+- Umbraco
 - translations
 ---
 

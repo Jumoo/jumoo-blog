@@ -2,7 +2,7 @@
 title: LocalGovStarter Kit - Usage
 tags:
   - Tools
-  - umbraco
+  - Umbraco
   - UmbracoLocalGov
 date: 2015-10-08 10:07:00
 ---

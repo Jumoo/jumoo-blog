@@ -4,7 +4,7 @@ date: 2025-06-12 10:52:14
 tags:
   - uSync
   - translations
-  - umbraco
+  - Umbraco
 ---
 
 Today (12th June 2025) sees the release of the next short-term support (STS) version of Umbraco.

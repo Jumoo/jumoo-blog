@@ -3,7 +3,7 @@ title: v12.2 - Background Publisher
 date: 2023-09-27 12:22:00
 tags: 
 - uSync
-- umbraco
+- Umbraco
 ---
 
 New in uSync v12.2, the Background Publisher allows you to change how pushing and pulling happens inside uSync. From a front end client driven process to a backend server -> server process. 

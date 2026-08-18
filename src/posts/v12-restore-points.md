@@ -3,7 +3,7 @@ title: v12.2 - Restore Points
 date: 2023-09-27 12:21:00
 tags: 
 - uSync
-- umbraco
+- Umbraco
 ---
 
 New in uSync v12.2, restore points let you create a point in time backup of your site that you can then rollback to should you need to revert any changes you have made. 

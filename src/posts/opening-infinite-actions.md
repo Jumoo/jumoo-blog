@@ -2,7 +2,7 @@
 title: Opening infinite editors from the action menu
 date: 2021-02-04 13:06:17
 tags:
-- umbraco
+- Umbraco
 - code
 - dev-notes
 ---

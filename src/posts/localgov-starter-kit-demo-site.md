@@ -2,7 +2,7 @@
 title: 'Localgov starter kit: Demo site'
 tags:
   - code
-  - umbraco
+  - Umbraco
   - UmbracoLocalGov
 date: 2014-03-03 12:51:49
 ---

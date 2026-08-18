@@ -2,7 +2,7 @@
 title: AI Translations
 date: 2025-10-06 14:13:44
 tags:
-  - umbraco
+  - Umbraco
   - translations
 ---
 

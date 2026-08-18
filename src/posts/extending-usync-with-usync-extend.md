@@ -3,7 +3,7 @@ title: Extending uSync with uSync.Extend
 date: 2026-02-24 11:00:00
 tags:
   - uSync
-  - umbraco
+  - Umbraco
   - code
 ---
 

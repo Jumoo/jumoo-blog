@@ -3,7 +3,7 @@ title: uSync 18.1 - a faster import
 date: 2026-08-12 14:00:00
 tags:
   - uSync
-  - umbraco
+  - Umbraco
 ---
 
 uSync 18.1 is out, and it is mostly about speed.

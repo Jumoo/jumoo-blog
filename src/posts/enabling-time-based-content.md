@@ -3,7 +3,7 @@ title: Enabling time based content
 tags:
   - LocalGov
   - small bite
-  - umbraco
+  - Umbraco
   - User Experience
 date: 2014-06-04 22:12:13
 ---

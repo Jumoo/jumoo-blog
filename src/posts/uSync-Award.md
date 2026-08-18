@@ -3,7 +3,7 @@ title: uSync wins Umbraco Package of the Year 🏆
 date: 2021-06-14 10:03:54
 tags:
  - uSync
- - umbraco
+ - Umbraco
 ---
 
 [Codegarden](https://codegarden.umbraco.com/) is the Annual Umbraco festival, for all things Umbraco, usually held in Odense, Denmark but this year like many other conferences it was held online over two days (10th-11th June).

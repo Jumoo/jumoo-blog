@@ -3,7 +3,7 @@ title: uSync.Complete 9 beta
 date: 2021-07-08 11:00:03
 tags:
   - uSync
-  - umbraco
+  - Umbraco
 ---
 
 The Umbraco 9 Release candidate is out 🎉 you can read all about it on the [official Umbraco blog](). We've already announced today that the [Release Candidate for uSync 9 is out](../uSync-9-releases) too. 

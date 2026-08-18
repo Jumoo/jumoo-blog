@@ -2,7 +2,7 @@
 title: Translation Manager - Oct 19 Price Updates 
 date: 2019-09-15 13:00:00
 tags:
-    - umbraco
+    - Umbraco
     - translations
 ---
 

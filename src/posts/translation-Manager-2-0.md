@@ -1,7 +1,7 @@
 ---
 title: Translation Manager 2.0
 tags:
-    - umbraco
+    - Umbraco
     - translations
 date: 2018-08-21 14:12:48
 ---

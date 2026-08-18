@@ -2,7 +2,7 @@
 title: 2024 Price Updates
 date: 2024-10-01 18:30:01
 tags:
-  - umbraco
+  - Umbraco
   - uSync
   - translations
 ---
