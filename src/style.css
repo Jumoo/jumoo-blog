@@ -495,6 +495,14 @@ hr {
   border-top: 2px solid #aaa;
 }
 
+/* AI generation note at the foot of a post */
+
+.ai-note {
+  text-align: right;
+  font-size: 0.9em;
+  color: var(--muted);
+}
+
 /* Footer */
 
 footer {
