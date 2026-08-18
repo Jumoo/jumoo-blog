@@ -24,9 +24,11 @@ dotnet add package Jumoo.TranslationManager.Automate --prerelease
 </pre>
 
 Automate is Umbraco's workflow product: triggers, conditions and actions wired together in the
-backoffice. It ships with a decent set of building blocks, but until now neither uSync nor
-Translation Manager appeared in any of the pickers, so anything involving them meant writing
-notification handlers by hand. These two packages fix that.
+backoffice. It ships with a core set of building blocks.
+
+We did have a small package ready for Translation Manager at the release of Umbraco.Automate,
+but now we have revisited that and written a uSync.Automate package, so you can hook into the
+events and actions for both of these packages.
 
 # uSync.Automate
 
@@ -42,7 +44,7 @@ So the automations themselves become part of the thing you deploy. You build a w
 dev site, uSync exports it, it goes through source control, and it arrives on staging and live
 the same way everything else does.
 
-Connections are deliberately *not* synced. Each environment owns its own connections. Your dev
+Connections are deliberately _not_ synced. Each environment owns its own connections. Your dev
 Slack webhook is not your live Slack webhook, and syncing credentials between environments is a
 bad idea however convenient it looks. Automations and workspaces reference connections by alias,
 and report it when the alias is missing on the target server rather than silently importing a
@@ -52,7 +54,7 @@ broken workflow.
 
 ## uSync.Automate.Actions
 
-The other direction: uSync operations you can run *from* a workflow.
+The other direction: uSync operations you can run _from_ a workflow.
 
 ![The Automate action picker filtered to uSync, showing the five uSync actions and the five uSync.Complete ones.](/images/2026/automate-usync-actions.png)
 
@@ -74,7 +76,7 @@ Every setting a uSync run takes is on the action, with the fiddly ones tucked in
 
 ![The uSync: Report action's settings, showing Group, and under Advanced, Set, Handler Aliases, Folders and Max Change Details.](/images/2026/usync-report-action-settings.png)
 
-Some things that seem worth doing with it:
+Some things that you might want to do with uSync actions:
 
 - Report on a schedule, and post to Slack or Teams only when the report finds changes. A quiet
   "your dev and live settings have drifted" alarm.
@@ -86,14 +88,14 @@ Some things that seem worth doing with it:
 ## uSync.Automate.Actions.Complete
 
 The same idea for uSync.Complete's publisher. Push and pull content, media and settings items to
-and from another server, take a restore point, and a trigger that fires when *this* site finishes
+and from another server, take a restore point, and a trigger that fires when _this_ site finishes
 receiving a push or pull from somewhere else.
 
 The push and pull actions carry the options the publisher UI gives you: include children,
 include media, include ancestors, include dependencies, and take a restore point on the target
 before applying anything.
 
-This is where it gets genuinely useful:
+So some things you might do:
 
 - When a document type is saved on the settings server, push it to staging. No one has to
   remember.
@@ -118,9 +120,11 @@ dependency._
 
 # Jumoo.TranslationManager.Automate
 
-Translation Manager has had auto translate on save for a while, but it is a fixed behaviour. It
-does one thing, the way we decided it should work. This package breaks it into parts you can
-rearrange.
+Translation Manager has had auto translate on save for a while, and there is already a
+[Jumoo.TranslationManager.AutoTranslate](https://github.com/Jumoo/Jumoo.TranslationManager.AutoTranslate)
+package that can trigger translations from content saves or publishes, but it is a fixed
+behaviour. It does one thing, the way it is coded to work. This package breaks it into parts you
+can rearrange.
 
 **Actions:**
 
