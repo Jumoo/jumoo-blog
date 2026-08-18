@@ -3,7 +3,7 @@ title: LocalGovStarter Kit - Usage
 tags:
   - Tools
   - umbraco
-  - 'Umbraco #LocalGov'
+  - UmbracoLocalGov
 date: 2015-10-08 10:07:00
 ---
 
