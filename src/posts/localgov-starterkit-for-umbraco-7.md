@@ -4,7 +4,7 @@ tags:
   - code
   - Tools
   - umbraco
-  - 'Umbraco #LocalGov'
+  - UmbracoLocalGov
   - web
 date: 2014-03-01 11:11:55
 ---
