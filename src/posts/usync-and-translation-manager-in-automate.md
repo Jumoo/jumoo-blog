@@ -12,8 +12,8 @@ We have released the first public builds of two new packages, `uSync.Automate` a
 [Umbraco.Automate](https://umbraco.com/products/add-ons/automate/) as actions and triggers you
 can drop into a workflow.
 
-Both are pre-release — uSync.Automate is at beta1, Translation Manager's is at rc1 — and we would
-really like people to try them and tell us what breaks.
+Both are pre-release (uSync.Automate is at beta1, Translation Manager's is at rc1), and we
+would really like people to try them and tell us what breaks.
 
 <pre class="nuget">
 dotnet add package uSync.Automate --prerelease
@@ -35,14 +35,14 @@ all of them.
 
 ## uSync.Automate
 
-Handlers and serializers so uSync exports Automate's own settings — `Workspace`, `WorkspaceGroup`
-and `Automation` — to disk as XML, alongside your document types and data types.
+Handlers and serializers so uSync exports Automate's own settings (`Workspace`, `WorkspaceGroup`
+and `Automation`) to disk as XML, alongside your document types and data types.
 
 So the automations themselves become part of the thing you deploy. You build a workflow on your
 dev site, uSync exports it, it goes through source control, and it arrives on staging and live
 the same way everything else does.
 
-Connections are deliberately *not* synced. Each environment owns its own connections — your dev
+Connections are deliberately *not* synced. Each environment owns its own connections. Your dev
 Slack webhook is not your live Slack webhook, and syncing credentials between environments is a
 bad idea however convenient it looks. Automations and workspaces reference connections by alias,
 and report it when the alias is missing on the target server rather than silently importing a
@@ -56,14 +56,14 @@ The other direction: uSync operations you can run *from* a workflow.
 
 ![The Automate action picker filtered to uSync, showing the five uSync actions and the five uSync.Complete ones.](/images/2026/automate-usync-actions.png)
 
-- **Export, Import and Report.** The three uSync run actions, with the settings you would expect
-  — handler group, set, handler aliases, force, clean, target folders. Report changes nothing, so
+- **Export, Import and Report.** The three uSync run actions, with the settings you would expect:
+  handler group, set, handler aliases, force, clean, target folders. Report changes nothing, so
   it is the safe one to schedule.
 - **Export Item and Import Item.** Single item versions, taking a key and a handler alias. These
   are the ones you bind to a trigger, so you can export just the thing that changed.
 - **Triggers for each run.** `Starting` and `Completed` for import, export and report. The
-  completed triggers hand you a summary you can filter on — only fire when there were changes,
-  only fire when there were errors.
+  completed triggers hand you a summary you can filter on: only fire when there were changes,
+  or only when there were errors.
 - **Item-level triggers.** Fire per item imported or exported. These are off by default and
   capped, because a full-site import can raise thousands of them and flood Automate's trigger
   outbox. If you want per-item work, the better pattern is a `Completed` trigger and a `forEach`
@@ -72,7 +72,7 @@ The other direction: uSync operations you can run *from* a workflow.
 
 Every setting a uSync run takes is on the action, with the fiddly ones tucked into Advanced.
 
-![The uSync: Report action's settings — Group, and under Advanced, Set, Handler Aliases, Folders and Max Change Details.](/images/2026/usync-report-action-settings.png)
+![The uSync: Report action's settings, showing Group, and under Advanced, Set, Handler Aliases, Folders and Max Change Details.](/images/2026/usync-report-action-settings.png)
 
 Some things that seem worth doing with it:
 
@@ -80,7 +80,8 @@ Some things that seem worth doing with it:
   "your dev and live settings have drifted" alarm.
 - Export on a timer so the uSync folder on a server is always current, without anyone
   remembering to press the button.
-- Import as the last step of something else — a deployment webhook, a content freeze ending.
+- Import as the last step of something else, like a deployment webhook or a content freeze
+  ending.
 
 ## uSync.Automate.Actions.Complete
 
@@ -88,7 +89,7 @@ The same idea for uSync.Complete's publisher. Push and pull content, media and s
 and from another server, take a restore point, and a trigger that fires when *this* site finishes
 receiving a push or pull from somewhere else.
 
-The push and pull actions carry the options the publisher UI gives you — include children,
+The push and pull actions carry the options the publisher UI gives you: include children,
 include media, include ancestors, include dependencies, and take a restore point on the target
 before applying anything.
 
@@ -106,7 +107,7 @@ Automations that run uSync raise uSync events, which can fire triggers, which ca
 automations. It is very easy to build a loop without meaning to.
 
 Every trigger in these packages has an **origin** setting in its advanced group, controlling what
-happens when the uSync run was itself performed by an automation — ignore it, treat it like any
+happens when the uSync run was itself performed by an automation: ignore it, treat it like any
 other, or only fire for it. The item-level triggers default to skipping automation-driven runs
 entirely, on the grounds that per-item events are almost always the tail end of a machine-driven
 cascade rather than something a human did.
@@ -117,7 +118,7 @@ dependency._
 
 # Jumoo.TranslationManager.Automate
 
-Translation Manager has had auto translate on save for a while, but it is a fixed behaviour — it
+Translation Manager has had auto translate on save for a while, but it is a fixed behaviour. It
 does one thing, the way we decided it should work. This package breaks it into parts you can
 rearrange.
 
@@ -131,10 +132,10 @@ rearrange.
 - **Approve Translation Job.** Approves a job, writing the translation back into Umbraco, and
   optionally publishes it. You can approve the whole job or name individual nodes.
 
-![The Automate action picker showing the Translation Manager group — Approve Translation Job, Check Translation Job and Translate Content.](/images/2026/tm-automate-actions.png)
+![The Automate action picker showing the Translation Manager group: Approve Translation Job, Check Translation Job and Translate Content.](/images/2026/tm-automate-actions.png)
 
-**Triggers:** Job Submitted, Translation Received, Job Approved and Translation Published — each
-filterable by set, by target culture, and by connector.
+**Triggers:** Job Submitted, Translation Received, Job Approved and Translation Published. Each
+one is filterable by set, by target culture, and by connector.
 
 The obvious one to build first is the one auto translate already does:
 
@@ -163,7 +164,7 @@ Where the rearranging actually earns its keep:
 Approving a translation publishes content. Publishing content is what started the automation. You
 can see where this goes.
 
-There is loop protection built in — the actions know which content they just wrote, jobs are
+There is loop protection built in: the actions know which content they just wrote, jobs are
 idempotent within a run, and the triggers have the same origin setting the uSync ones do. Force
 (create translation nodes even where Translation Manager sees no change) is off by default and
 deliberately awkward to turn on, because it is the setting that defeats most of the above.
