@@ -487,7 +487,10 @@ pre.nuget {
   padding: 20px;
   background-color: #000;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1em;
+  /* long package names used to overflow and scroll sideways; wrap instead */
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 
 hr {
