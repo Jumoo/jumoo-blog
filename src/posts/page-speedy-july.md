@@ -91,7 +91,7 @@ It's [Localgov page speedy time](http://kevin.jumoo.co.uk/2014/the-council-speed
 
 ### Wappalyzer Localgov
 
-this month we have also ran a modified copy of wappalyzer, the script that inspects sites to work out what technologies they are using. a [copy of those results are also avalible](https://docs.google.com/spreadsheets/d/1vAiI3iJeGft6JRGKCQGYdRnPCebmRg84Z_yxt2glCdM/edit?usp=sharing). pulling some stats out of that we have found:
+this month we have also ran a modified copy of wappalyzer, the script that inspects sites to work out what technologies they are using. a [copy of those results are also available](https://docs.google.com/spreadsheets/d/1vAiI3iJeGft6JRGKCQGYdRnPCebmRg84Z_yxt2glCdM/edit?usp=sharing). pulling some stats out of that we have found:
 
 **Webservers:**
 <table class="space-table">

@@ -6,7 +6,7 @@ tags:
  - translations
 ---
 
-Continuing our goal of getting all of our package working with the Upcoming Umbraco 9 release. We are super happy to annouce the release of Translation Manager 9 Beta for Umbraco 9 🔥 **and Umbraco 8 🎉**.
+Continuing our goal of getting all of our package working with the Upcoming Umbraco 9 release. We are super happy to announce the release of Translation Manager 9 Beta for Umbraco 9 🔥 **and Umbraco 8 🎉**.
 
 ### For Umbraco 9 on .NetCore 5.0
 
@@ -27,7 +27,7 @@ Typically (and for us) this is achieved by targeting the code to both framework 
 
 Translation Manager is our first major Multi-targeted package, where the same code base works for both Umbraco v8 and Umbraco v9. which means we can keep updates and fixes in sync between the Umbraco versions without having to maintain two code bases. This will allow us to offer better and longer support for Translation Manager on both versions.
 
-![It isn't a multi-targted release without the side by side pick](/images/2021/tm-sidebyside.png)
+![It isn't a multi-targeted release without the side by side pick](/images/2021/tm-sidebyside.png)
 
 
 ## What's New ? 🌟

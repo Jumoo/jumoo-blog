@@ -37,4 +37,4 @@ Where it makes sense highlight keywords, and make your "calls to action" nice an
 
 _(Disclaimer – I am not a content writer, I'm actually very bad at the practice of writing, I just understand some principles, I can't actually do them - hence this isn't a comprehensive writing for the web article.)_
 
-_(250 words, probibly less - that's reading on paper, [screen is around 32% - 11% slower, depending on the site](http://users.soe.ucsc.edu/~srikur/files/HCII_reading.pdf)) _
+_(250 words, probably less - that's reading on paper, [screen is around 32% - 11% slower, depending on the site](http://users.soe.ucsc.edu/~srikur/files/HCII_reading.pdf)) _

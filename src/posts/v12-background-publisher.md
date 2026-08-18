@@ -8,7 +8,7 @@ tags:
 
 New in uSync v12.2, the Background Publisher allows you to change how pushing and pulling happens inside uSync. From a front end client driven process to a backend server -> server process. 
 
-This offers up new opportunities, such as the ability to move on and let the publish happen without watching it, *scheduled* & **versioned** publishing at set times and dates, and easier integration with things like hangfire and command line deployments (code commming soon!).
+This offers up new opportunities, such as the ability to move on and let the publish happen without watching it, *scheduled* & **versioned** publishing at set times and dates, and easier integration with things like hangfire and command line deployments (code coming soon!).
 
 ## Choosing the Background Publisher 
 

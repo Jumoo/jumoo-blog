@@ -60,7 +60,7 @@ We've added support for media and files that are added directly to content, that
 
 
 ### Lots of little UI tweaks.
-Our main theme with the 8.6 release have been to polish the UI a bit and make it simpler to configure and use uSync. so across the board there are lots of little UI changes to hopefully make the whole process easer on you and your users.
+Our main theme with the 8.6 release have been to polish the UI a bit and make it simpler to configure and use uSync. so across the board there are lots of little UI changes to hopefully make the whole process easier on you and your users.
 
 So things like the new user group picker make it easier to manage what groups can see what servers.
 

@@ -6,7 +6,7 @@ tags:
 date: 2013-04-16 16:28:39
 ---
 
-To my mind the [Service Manua](https://www.gov.uk/service-manual)l that the [Government Digital Service](http://digital.cabinetoffice.gov.uk/) (GDS) has produced is probably the best thing they have done. With the right remit, enough time and autonomy, you can get a good digital team to deliver a high quality user focused website<sup>1</sup>, but it takes a lot more determination to get people to then write down the processes that determined how that is achieved.
+To my mind the [Service Manual](https://www.gov.uk/service-manual) that the [Government Digital Service](http://digital.cabinetoffice.gov.uk/) (GDS) has produced is probably the best thing they have done. With the right remit, enough time and autonomy, you can get a good digital team to deliver a high quality user focused website<sup>1</sup>, but it takes a lot more determination to get people to then write down the processes that determined how that is achieved.
 
 The resulting Service Manual is a clear concise and comprehensive guide on how to deliver quality digital services in government. The main question for many will be – can and how is this applied to local government?
 
@@ -23,7 +23,7 @@ See just a few small things :)  and I know you can probably add a few (comments
 
 I have spoken with quite a few councils around digital service delivery and I am almost always left with the impression that their "web" team isn't the most important part of the organisation. There are really lots of talented people in local government who are basically being locked in a room and asked to manage how press releases look or promote the latest council project – if digital service delivery isn't recognised as being important or even existing, you going nowhere.
 
-When delivering liverpool.gov.uk we fought for years to get the remit to deliver the site, and without the remit we got nowhere fast, sure everyone agreed in principle, but nothing ever got progresed. <span style="line-height: 1.714285714; font-size: 1rem;">Within 4 months of getting the go ahead we had re-engineered and rebuilt the site – The previous 4 months consisted of meetings, and progress boards; there was no progress only meetings.</span>
+When delivering liverpool.gov.uk we fought for years to get the remit to deliver the site, and without the remit we got nowhere fast, sure everyone agreed in principle, but nothing ever got progressed. <span style="line-height: 1.714285714; font-size: 1rem;">Within 4 months of getting the go ahead we had re-engineered and rebuilt the site – The previous 4 months consisted of meetings, and progress boards; there was no progress only meetings.</span>
 
 **Politics**
 

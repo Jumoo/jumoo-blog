@@ -32,14 +32,14 @@ PM> install-package uSync -version 8.7.0-rc
 
 # 🎉 What's new in uSync.Complete 8.7 ?
 Building on all the cool stuff we've added to uSync 8.7 - uSync.Complete now has a raft of new features to make setup easier for you, and publishing easier for your editors.
-A [full list of changes](https://github.com/Jumoo/uSync.Complete.Issues/issues?q=is%3Aissue+label%3Arelease%2F8.7.0+is%3Aclosed) is avalible on the uSync.Complete issues repository.
+A [full list of changes](https://github.com/Jumoo/uSync.Complete.Issues/issues?q=is%3Aissue+label%3Arelease%2F8.7.0+is%3Aclosed) is available on the uSync.Complete issues repository.
 
 ## Simplified Server 💻 Management 
 We've given the dashboard for managing your config and servers an overhaul and now its easier than before to see what servers you have setup, how they are configured and how you can sync the settings between them.
 
 ![New streamlined Publisher dashboard](/images/2020/87_dashboard.png).
 
-Infact we've tried to make the whole setup process easier, so now from this dashboard you can add a new server and configure the security keys, to get everything up and running without having to copy config files around.
+In fact we've tried to make the whole setup process easier, so now from this dashboard you can add a new server and configure the security keys, to get everything up and running without having to copy config files around.
 
 ![Setup server connections remotely](/images/2020/87_serversetup.png)
 

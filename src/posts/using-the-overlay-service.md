@@ -81,7 +81,7 @@ For example in uSync.Complete we have multiple steps to the publish process wher
 While this is a complex use of the overlay service, it is possible to do this when you understand the flow of an overlay dialog.
 
 ### All button presses go back to the parent.
-So when ever a user presses a button on the dialog they will be hitting hte submit or close functions of the dialog.
+So when ever a user presses a button on the dialog they will be hitting the submit or close functions of the dialog.
 
 While you could indeed intercept these in your overlay controller, they will almost always go back to the submit and close functions you setup when opening the overlay. 
 

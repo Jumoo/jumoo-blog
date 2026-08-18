@@ -22,7 +22,7 @@ Our plans for uSync include :
 ## uSync Speed improvements
 *(planned release v8.7.2)*
 
-Over the last few of uSync releases we've added a lot of features and checks to content and meida syncing. You can control all sorts of aspects of the sync now, such as limit the cultures and segments you want to sync and schedule publication from within in the sync files.
+Over the last few of uSync releases we've added a lot of features and checks to content and media syncing. You can control all sorts of aspects of the sync now, such as limit the cultures and segments you want to sync and schedule publication from within in the sync files.
 
 We've noticed that all this cool stuff this has a little impact on syncing speed 😞 and we want to get back to super fast. 
 
@@ -37,7 +37,7 @@ We've had this in the works for a while and we think it is working well.
 
 ![uSync site history](/images/2020/site-history.gif)
 
-History view lets you see what happend during all syncs, you can dive into the detail of any sync and work out what happened when.
+History view lets you see what happened during all syncs, you can dive into the detail of any sync and work out what happened when.
 
 
 # uSync.Complete
@@ -60,7 +60,7 @@ This is something we are looking at brining to uSync.Complete it will enable you
 ## uSync.Complete Speed 
 *(planned release v8.10)*
 
-Alongside performance improvements for uSync we've been looking to imporve the speed of uSync complete. **Its not that uSync.Complete is slow - but we know it could be faster.**
+Alongside performance improvements for uSync we've been looking to improve the speed of uSync complete. **Its not that uSync.Complete is slow - but we know it could be faster.**
 
 There are quite a few things we do during a push/pull that can be done before hand. We've played about a bit with this, and it looks like its going to be.... <h1 class="text-center">REALLY FAST!</h1>
 
@@ -89,7 +89,7 @@ We are always open for fixes, suggestions and enhancements via github:
 We have a couple of things that we haven't scheduled in, but are things we've even messed about with or got some demos of. these don't have a timescale, but we are hoping they will come soon.
 
 ## uSync.Complete remote setup
-We've had an interal demo package for a while that lets you setup, control and deploy Umbraco sites to azure ! - Our long term plan is to build some of this into uSync.Complete so you can click 'create site' or something similar, answer some questions and get a site on azure. 
+We've had an internal demo package for a while that lets you setup, control and deploy Umbraco sites to azure ! - Our long term plan is to build some of this into uSync.Complete so you can click 'create site' or something similar, answer some questions and get a site on azure. 
 
 ## uSync Forms 
 Support for Umbraco forms in uSync is something we started a while back - but with plans to release an update to umbraco forms that uses the database, we are holding off this update and then we will work on the package so you can sync your forms too.
