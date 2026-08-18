@@ -12,6 +12,9 @@ PR is what deploys the site (`deploy.yml` runs on push to `main`). Use
 
 ## Writing a post
 
+Voice, structure and formatting conventions for post content live in
+[WRITING-STYLE.md](WRITING-STYLE.md) — read it before drafting a post.
+
 - File: `src/posts/<slug>.md` — the filename becomes the URL slug
   (`/YYYY/slug/`), `YYYY` taken from the post's `date`. Don't rename existing
   post files — that changes their live URL.
