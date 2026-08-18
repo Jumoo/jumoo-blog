@@ -25,8 +25,6 @@ backoffice. It ships with a decent set of building blocks, but until now neither
 Translation Manager appeared in any of the pickers, so anything involving them meant writing
 notification handlers by hand. These two packages fix that.
 
-![PLACEHOLDER — the Automate action picker showing the uSync and Translation Manager groups.](/images/2026/automate-action-picker.png)
-
 # uSync.Automate
 
 This is actually three packages, because they do quite different things and not everyone wants
@@ -47,11 +45,13 @@ bad idea however convenient it looks. Automations and workspaces reference conne
 and report it when the alias is missing on the target server rather than silently importing a
 broken workflow.
 
-![PLACEHOLDER — uSync's export screen listing Automate workspaces and automations.](/images/2026/usync-export-automate.png)
+![uSync reporting on the Automate group, listing the Automate Workspaces, Automate Groups and Automations handlers.](/images/2026/usync-export-automate.png)
 
 ## uSync.Automate.Actions
 
 The other direction: uSync operations you can run *from* a workflow.
+
+![The Automate action picker filtered to uSync, showing the five uSync actions and the five uSync.Complete ones.](/images/2026/automate-usync-actions.png)
 
 - **Export, Import and Report.** The three uSync run actions, with the settings you would expect
   — handler group, set, handler aliases, force, clean, target folders. Report changes nothing, so
@@ -66,6 +66,10 @@ The other direction: uSync operations you can run *from* a workflow.
   outbox. If you want per-item work, the better pattern is a `Completed` trigger and a `forEach`
   over its changes; the config is under `uSync:Automate:Actions:ItemTriggers` if you want them on
   anyway.
+
+Every setting a uSync run takes is on the action, with the fiddly ones tucked into Advanced.
+
+![The uSync: Report action's settings — Group, and under Advanced, Set, Handler Aliases, Folders and Max Change Details.](/images/2026/usync-report-action-settings.png)
 
 Some things that seem worth doing with it:
 
@@ -124,6 +128,8 @@ rearrange.
 - **Approve Translation Job.** Approves a job, writing the translation back into Umbraco, and
   optionally publishes it. You can approve the whole job or name individual nodes.
 
+![The Automate action picker showing the Translation Manager group — Approve Translation Job, Check Translation Job and Translate Content.](/images/2026/tm-automate-actions.png)
+
 **Triggers:** Job Submitted, Translation Received, Job Approved and Translation Published — each
 filterable by set, by target culture, and by connector.
 
@@ -133,7 +139,7 @@ The obvious one to build first is the one auto translate already does:
 
 Except now every step is yours to change. Which is the point.
 
-![PLACEHOLDER — a published-to-translated automation in the Automate workflow editor.](/images/2026/tm-automate-workflow.png)
+![A Content Published trigger wired straight into the Translate Content action in the Automate workflow editor.](/images/2026/tm-automate-workflow.png)
 
 Where the rearranging actually earns its keep:
 
