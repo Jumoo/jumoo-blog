@@ -6,7 +6,7 @@ tags:
 date: 2013-06-25 15:27:56
 ---
 
-One thing that I've been doing on agile projects recently is spliting up the feature set at the start of the project, this lets people see what is required and think about what is possible.
+One thing that I've been doing on agile projects recently is splitting up the feature set at the start of the project, this lets people see what is required and think about what is possible.
 
 ### Starting out
 

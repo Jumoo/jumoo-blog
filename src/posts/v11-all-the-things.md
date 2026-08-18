@@ -26,7 +26,7 @@ All the same features as v10. but we have snuck in a new result view
 uSync.Complete eleven also is very similar to its v10 counterpart, except we 
 have improved caching so it will be faster ! 
 
-<pre class="nuget">dotnet add package uSync.Compelte</pre>
+<pre class="nuget">dotnet add package uSync.Complete</pre>
 
 # Translation Manager v11
 
@@ -38,9 +38,9 @@ Linked pages package works on both Umbraco 10 and 11.
 
 <pre class="nuget">dotnet add package Our.Umbraco.LinkedPages</pre>
 
-# Maintanence Mode v10
+# Maintenance Mode v10
 
-Like Linked Pages package the maintaince mode package will work for both Umbraco 10
+Like Linked Pages package the maintenance mode package will work for both Umbraco 10
 and Umbraco 11 sites.  
 
 <pre class="nuget">dotnet add package Our.Umbraco.MaintenanceMode</pre>

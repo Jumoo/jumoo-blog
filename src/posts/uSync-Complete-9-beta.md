@@ -20,7 +20,7 @@ uSync.Publisher lets you push settings, content and media between umbraco sites,
 ### Pack and Unpack up your site between installations
 uSync.Exporter lets you export your whole site or just a bit of your site between servers. so you can develop a feature for your site on onw install and pack it up and move it to another. 
 
-You can even use uSync.Exporter to take a feature from a completely different site and import it into another. the Dependency management features will find all the doctypes, datatypes and seetings you need to implement a feature and include them in the sync-pack file.
+You can even use uSync.Exporter to take a feature from a completely different site and import it into another. the Dependency management features will find all the doctypes, datatypes and settings you need to implement a feature and include them in the sync-pack file.
 
 ### Move files between Umbraco 8 and Umbraco 9 sites !
 because we've worked hard to ensure uSync 9 is backwards compatible so is uSync.Complete 9. and this means you can push and pull content, media and settings between Umbraco 8 and Umbraco 9 sites - directly from within Umbraco !!

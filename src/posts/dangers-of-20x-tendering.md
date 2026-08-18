@@ -13,7 +13,7 @@ There is little chance of us at Jumoo going for these tenders, but it at least a
 
 One thing that strikes me (apart from the tender values) is the varying quality in how the tenders go about asking for what they want. Many are vague and do not clearly outline just what the organisation is hoping to achieve from the procurement of new technology.
 
-One such tender I recently saw was amazing: New Content Management System , Value: £50k - £2 milllion. Apparently, they were open to bids that could be 20 times higher than the lower end of their range of interest. What's more, they were incredibly vague in what they were hoping to get for this - the tender basically said, "Something to manage our website, please. Thanks."
+One such tender I recently saw was amazing: New Content Management System , Value: £50k - £2 million. Apparently, they were open to bids that could be 20 times higher than the lower end of their range of interest. What's more, they were incredibly vague in what they were hoping to get for this - the tender basically said, "Something to manage our website, please. Thanks."
 
 ### We don't know what we're doing, come work with us
 

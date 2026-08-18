@@ -12,7 +12,7 @@ Along the way we've made some 'minor' improvements. simplifying some of the si
 
 ### Mobile
 
-Since we first launched the new look site in 2011, we've seen a massive shift towards mobile, and while we feel liverpool.gov.uk is one of hte best local goverment websites on a mobile, we wanted to improve that.
+Since we first launched the new look site in 2011, we've seen a massive shift towards mobile, and while we feel liverpool.gov.uk is one of the best local government websites on a mobile, we wanted to improve that.
 
  [![Library pages Mobile](/images/2013/05/Screenshot_2013-05-14-19-57-27-180x300.png)](/images/2013/05/Screenshot_2013-05-14-19-57-27.png) Library pages Mobile 
 

@@ -34,6 +34,6 @@ Fix an XLIFF 2 issue where a nested spanning code containing no content has a ro
 
 /// 
 
-*And that is 84 nuget packages released across 7 respositories and 3 Umbraco versions - so we are going to have a cup of tea ☕*
+*And that is 84 nuget packages released across 7 repositories and 3 Umbraco versions - so we are going to have a cup of tea ☕*
 
 

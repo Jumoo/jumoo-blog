@@ -14,7 +14,7 @@ To help keep all of your cool new multi-lingual websites up-to-date we are relea
 Translation manager v9, is our tried and trusted translation management tool for Umbraco 8 brought to the Umbraco v9 platform. 
 
 ## Multi-targeted
-Everything will continue to work just like you expect it to. Infact this version of Translation manager is multi-targeted, which means the same installation can work on both Umbraco v8 and Umbraco v9 sites. 
+Everything will continue to work just like you expect it to. In fact this version of Translation manager is multi-targeted, which means the same installation can work on both Umbraco v8 and Umbraco v9 sites. 
 
 A multi-targeted approach to Translation Manager means we can continue to offer great support to our v8 and v9, while any new features can be simultaneously release on both platforms. 
 

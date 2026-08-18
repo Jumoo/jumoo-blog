@@ -49,7 +49,7 @@ Thurrock was singled out in the article as being the 'fastest' council website, 
 
 Looking at the WebPageTest.org results we can see that a total of 61 requests are required to load the page, and there are a number of large images slowing down the rendering of the page - this is where tools like WebPageTest can spot the small changes that would make a big difference:
 
- [![Secton of Thurrock timeline from WebPageTest.org](/images/2014/11/thurrocktimeline.png)](/images/2014/11/thurrocktimeline.png) Secton of Thurrock timeline from WebPageTest.org 
+ [![Section of Thurrock timeline from WebPageTest.org](/images/2014/11/thurrocktimeline.png)](/images/2014/11/thurrocktimeline.png) Section of Thurrock timeline from WebPageTest.org 
 
 Looking at the timeline for Thurrock, the major blocker on render time is actually the widget.js file, which is used to display a Twitter timeline on the homepage. The rendering of the page is blocked while this large file is downloaded, and this is something that can be easily rectified.
 

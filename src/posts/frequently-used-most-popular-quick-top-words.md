@@ -6,7 +6,7 @@ tags:
 date: 2014-06-06 08:05:45
 ---
 
-I like data (have you noticed yet?) - So following on from the [Localgov page speedy thing](http://blog.jumoo.co.uk/2014/the-council-speedy-indexish/ "The council speedy indexish"), the list of [new Locagov sites](http://blog.jumoo.co.uk/2014/new-localgov-websites-since-april/ "New #LocalGov Websites since April"), and[ Localgov beta websites](http://blog.jumoo.co.uk/2014/beta-localgov-sites-june-2014/ "Beta localgov sites June 2014"). I've hacked together another script to bring you local government trendy words.
+I like data (have you noticed yet?) - So following on from the [Localgov page speedy thing](http://blog.jumoo.co.uk/2014/the-council-speedy-indexish/ "The council speedy indexish"), the list of [new Localgov sites](http://blog.jumoo.co.uk/2014/new-localgov-websites-since-april/ "New #LocalGov Websites since April"), and[ Localgov beta websites](http://blog.jumoo.co.uk/2014/beta-localgov-sites-june-2014/ "Beta localgov sites June 2014"). I've hacked together another script to bring you local government trendy words.
 
 Scanning the content for all 430-odd council websites, I've compiled a chart for the number of times key phrases appear on council homepage:
 <table class="table narrow">

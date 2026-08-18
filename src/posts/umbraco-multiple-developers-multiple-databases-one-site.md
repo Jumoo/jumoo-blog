@@ -28,7 +28,7 @@ One of the things you won’t want floating about in your source control, is all
 
 Most source control solutions will give you an initial .gitignore file for visual studio solutions and these will ignore most project specific files you don’t want.
 
-Umbraco adds target files to your solution files that actually means the umbraco files ( mainly umbraco and umbraco_client) are copied from the nuget folder when you build the site, as such we don’t need to include them as part of our source control repository - so add these extra lines to your .gignore file:
+Umbraco adds target files to your solution files that actually means the umbraco files ( mainly umbraco and umbraco_client) are copied from the nuget folder when you build the site, as such we don’t need to include them as part of our source control repository - so add these extra lines to your .gitignore file:
 <pre># Umbraco Things
 **/[Uu]mbraco/
 **/[Uu]mbraco_[Cc]lient/

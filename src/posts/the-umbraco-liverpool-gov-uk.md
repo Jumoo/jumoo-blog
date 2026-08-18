@@ -13,7 +13,7 @@ it's been a long journey - not really because of any technical reasons, more the
 
  [![51900a12dbf3ec40ae000064](/images/2013/05/51900a12dbf3ec40ae000064-300x285.jpeg)](/images/2013/05/51900a12dbf3ec40ae000064.jpeg) Current liverpool.gov.uk 
 
-<span style="font-size: 1rem; line-height: 1.714285714;">When we built the new liverpool.gov.uk in late 2010 we actually nearly went with umbraco then, we had only just started to experiment with it, and it looked like it fitted the bill - but we didn't, we had 5 months to compleatly rebuild and remodle the website, and we didn't think fitting a new CMS in as well would have worked. </span>
+<span style="font-size: 1rem; line-height: 1.714285714;">When we built the new liverpool.gov.uk in late 2010 we actually nearly went with umbraco then, we had only just started to experiment with it, and it looked like it fitted the bill - but we didn't, we had 5 months to completely rebuild and remodel the website, and we didn't think fitting a new CMS in as well would have worked. </span>
 
  [![the new liverpool.gov.uk](/images/2013/05/51900a2adbf3ec6a7a000031-300x225.jpeg)](/images/2013/05/51900a2adbf3ec6a7a000031.jpeg) the new liverpool.gov.uk 
 
@@ -25,7 +25,7 @@ It's been a whirlwind development cycle, we had hoped to be more open with the p
 
 As we emerge from the fog - I am hoping to build up more detail of how we built the site, but we already have quite a bit of information around and about.
 
-Our lead CMS developer [marc has been doing a good job of talking about the details of the migration](tridionumbracomigrationtrilogy.monosnow.co.uk) and the [delta.ldlwebservices.co.uk](http://delta.ldlwebservices.co.uk) blog has some details of how the project has eveolved. so if you're interested they are good places to start.
+Our lead CMS developer [marc has been doing a good job of talking about the details of the migration](tridionumbracomigrationtrilogy.monosnow.co.uk) and the [delta.ldlwebservices.co.uk](http://delta.ldlwebservices.co.uk) blog has some details of how the project has evolved. so if you're interested they are good places to start.
 
 Here i want to flesh out some of the detail behind the decisions that make up the site, and how &amp; why it all works the way it does. just need to get it live first.
 

@@ -57,4 +57,4 @@ With all the cool new things getting added to uSync we thought the left hand men
 
 ![New uSync Tree](/images/2023/v12-tree.png)
 
-This means uSync takes up less space in the menu, its easer to find each individual part, and you can now deep link to things like uSync.Exporter (which was harder before as it was a tab on the uSync dashboard).
+This means uSync takes up less space in the menu, its easier to find each individual part, and you can now deep link to things like uSync.Exporter (which was harder before as it was a tab on the uSync dashboard).

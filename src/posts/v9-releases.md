@@ -33,7 +33,7 @@ We've updated the UI a little for uSync on Umbraco 9 , so its easier to see whic
 # Translation Manager
 Translation Manager is all trendy and Multi-targeted now, meaning we will have a single release for both Umbraco v8 and Umbraco v9 (and beyond). 
 
-This version includes all the same functionality as the v8 version and we will be working with out Translation partners to bring all of the translation connectors upto date for v9.
+This version includes all the same functionality as the v8 version and we will be working with out Translation partners to bring all of the translation connectors up to date for v9.
 
 ![Translation mgr 9](/images/2021/tm9.png)
 

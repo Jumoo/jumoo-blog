@@ -16,12 +16,12 @@ dotnet add package Jumoo.TranslationManager.Ai
 ## More than just OpenAi.
 
 You might not be aware, but we already have an AI based connector for Translation
-Manager. our OpenAI connectior is now over two years old! So why are we releasing
+Manager. our OpenAI connector is now over two years old! So why are we releasing
 another one?
 
 Well 2 years is a very very long time in the world of AI and quite a long time in
 the world of packages built around AI, in the time since we released our OpenAI we
-have have 3 diffrent underling AI libraries to help us talk to the AI, and now
+have have 3 different underling AI libraries to help us talk to the AI, and now
 most of them are out of date too.
 
 Also there are way more AI tools than just OpenAI and we think its time we looked
@@ -29,7 +29,7 @@ at making it easier to choose which tool you might want to use with your transla
 
 ## Multiple AIs
 
-At the moment! for c# at least the world appears to be co-allaessing around the
+At the moment! for c# at least the world appears to be coalescing around the
 Microsoft.Extensions.AI libraries and the Microsoft.SemanticKernel packages which
 give an abstraction layer between your code and the AI's which mean its hopefully
 simpler to switch between AI providers.
@@ -55,8 +55,8 @@ insight into just how many tokens are being used for the translation. Great if y
 
 ## Translation Memory
 
-One of the advantages of the new connector is support for Translation manager v16's Translation Memory fearure,
-which can reduce the ammount of data being sent to the AI providers, increasing translation speed and reducing
+One of the advantages of the new connector is support for Translation manager v16's Translation Memory feature,
+which can reduce the amount of data being sent to the AI providers, increasing translation speed and reducing
 the costs of the translations.
 
 _The Translation memory feature only works with machine and AI translators. and stores simple phase/language pairs to reduce the amount of round trips to external services._
@@ -74,8 +74,8 @@ slowly removing support for the single OpenAI connector.
 
 ## Extending.
 
-The new AI connector can be extended by developing your own IAITranslatior classes.
-We will soon release documentation on how you can extend the connector to work with other AI providers (this will hopefully be a single file, not to much conifg!)
+The new AI connector can be extended by developing your own IAITranslator classes.
+We will soon release documentation on how you can extend the connector to work with other AI providers (this will hopefully be a single file, not to much config!)
 
 ## Try now.
 

@@ -26,7 +26,7 @@ Customers however visit the site a lot less frequently. The majority of visitors
 
 **Staff use the site differently**
 
-This difference shows it self in how staff and customers use the site diffrenty, staff visiting often become use to navigating the site, while customers new to the site have to be guided to the right location. Some things we observed in our stats where:
+This difference shows it self in how staff and customers use the site differently, staff visiting often become use to navigating the site, while customers new to the site have to be guided to the right location. Some things we observed in our stats where:
 
 *   Staff where twice as likely to use the A-Z  : often going to L then lifestyles (the leisure centres) – customers navigated via the links on the homepage
 *   Staff searched for Google on our homepage a lot – we suspect that's because it was the homepage on their browser and they didn't want it to be.

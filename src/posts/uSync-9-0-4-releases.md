@@ -43,7 +43,7 @@ if you save this item as usync-server.json in the root of your site, then whenev
 
 ## Get it while its 🔥
 
-uSync 9 and uSync.Complete 9 are avalible via nuget and can be quickly added to your project from the within visual studio or the command line.
+uSync 9 and uSync.Complete 9 are available via nuget and can be quickly added to your project from the within visual studio or the command line.
 
 ### uSync:
 To add uSync to your site - 

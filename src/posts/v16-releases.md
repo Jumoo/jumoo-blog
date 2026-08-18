@@ -11,7 +11,7 @@ Today (12th June 2025) sees the release of the next short-term support (STS) ver
 
 v16 of Umbraco is the 3rd release since the major updates to the backoffice using WebComponents and a modern set of APIs to manage Umbraco.
 
-Our packages have keept pace with these releases, so today we are releasing updates to all our major packages to run on Umbraco v16 with some of our more "minor" packages still to come.
+Our packages have kept pace with these releases, so today we are releasing updates to all our major packages to run on Umbraco v16 with some of our more "minor" packages still to come.
 
 ## Our v16 Releases
 

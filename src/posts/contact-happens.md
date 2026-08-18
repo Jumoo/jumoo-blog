@@ -26,7 +26,7 @@ All organisations will have preferred contact channels, and these may be differe
 
 In a simple case, this will probably mean offering the online form up-front, and hiding phone numbers further down. A more complex solution might involve guiding the user through a series of steps, before offering the most appropriate channel, but be cautious -  making contact too hard never ends well.
 
- [![It](/images/2015/07/cheaper-closecrop.png)](/images/2015/07/cheaper-closecrop.png) A simple banner, can help people understand you're prefered method of contact. 
+ [![It](/images/2015/07/cheaper-closecrop.png)](/images/2015/07/cheaper-closecrop.png) A simple banner, can help people understand you're preferred method of contact. 
 
 You shouldn’t be afraid to tell your users what your preferred contact method is, especially if you're spending their money to do it. Even something as simple as a sentence that says “it is cheaper for you to contact us online” tells people that avoiding the phone will save everyone's money.
 

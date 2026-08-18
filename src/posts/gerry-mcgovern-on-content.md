@@ -7,7 +7,7 @@ tags:
 date: 2011-09-20 19:22:26
 ---
 
-I was (un)fortunate enough to give a presentation following on from [Gerry McGovern](https://twitter.com/#!/gerrymcgovern) at the SOCTIM Plans for [better connected event](http://www.socitm.net/downloads/file/1003/) last week.
+I was (un)fortunate enough to give a presentation following on from [Gerry McGovern](https://twitter.com/#!/gerrymcgovern) at the SOCITM Plans for [better connected event](http://www.socitm.net/downloads/file/1003/) last week.
 
 as always Gerry was on top form; but i wasn't prepared for his inhalation of the old [liverpool.gov.uk](http://liverpool.gov.uk). even though we thought it was rubbish and threw it away, it's still quite cringey to think it was our site for quite a while.
 
