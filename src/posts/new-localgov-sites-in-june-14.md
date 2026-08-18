@@ -28,7 +28,7 @@ Running the [page speedy index](http://blog.jumoo.co.uk/2014/page-speedy-july/ "
 
 <div class="center">![melton_june_desktop](/images/2014/07/melton_june_desktop.jpg)![melton_desktop](/images/2014/07/melton_desktop.jpg)</div>
 
-### Runnymead ([http://www.runnymede.gov.uk/](http://www.runnymede.gov.uk/))
+### Runnymede ([http://www.runnymede.gov.uk/](http://www.runnymede.gov.uk/))
 
 <div class="center">![runnymede_june_desktop](/images/2014/07/runnymede_june_desktop.jpg)![runnymede_desktop](/images/2014/07/runnymede_desktop.jpg)</div>
 

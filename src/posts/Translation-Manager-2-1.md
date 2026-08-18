@@ -10,7 +10,7 @@ date: 2018-09-03 14:12:48
 Following hot on the heels of the [new v2 release of Translation Manager](/2018/translation-manager-2-0), comes version 2.1 with some extra little features to make translations even more joyful!
 
 ### Simpler Vorto Setups
-Previously with translation manager you had to exercise some caution when setting up vorto based translation sets. If you weren't careful you could accedentily include non-vorto properties in translation sets and you could end up with translations overwriting things you didn't want them to overwrite. 
+Previously with translation manager you had to exercise some caution when setting up vorto based translation sets. If you weren't careful you could accidentally include non-vorto properties in translation sets and you could end up with translations overwriting things you didn't want them to overwrite. 
 
 With this release we have simplified the way these "Loopback" translations work. during the setup translation manager will detect if you are creating a loopback set, and tweak the setup accordingly. 
 

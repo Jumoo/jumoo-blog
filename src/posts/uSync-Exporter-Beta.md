@@ -44,11 +44,11 @@ a `.usync` file is essentially a zip file containing all the settings and conten
 this will contain of two main elements:
 
 1. The `usync` folder contains all the settings you have exported - its just like a cut down version of the usync folder in your site. 
-2. depending on what options you pick you might see `media` and `view` folders in a usync file, these are just what they look like, the elements of the media and views needed to recreate meida and templates. 
+2. depending on what options you pick you might see `media` and `view` folders in a usync file, these are just what they look like, the elements of the media and views needed to recreate media and templates. 
 
 ![inside a .usync file](/images/usync/exporter/syncpack.png)
 
-*When you import a sync-pack uSync.Exporter will take this information and recreate the site, supporting things like blob storge for media and making sure templates are created both on disk and in the database.*
+*When you import a sync-pack uSync.Exporter will take this information and recreate the site, supporting things like blob storage for media and making sure templates are created both on disk and in the database.*
 
 
 #### Known issues

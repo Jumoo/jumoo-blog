@@ -21,13 +21,13 @@ and you can read below about all the new things.
 # 🌟 What's new in uSync.Complete 8.9 
 
 ## 📦 Batch📦ing 📦request
-For uSync.Complete 8.9 we have rewritten a lot of the publishing pipeline to accomidate batching of commands. 
+For uSync.Complete 8.9 we have rewritten a lot of the publishing pipeline to accommodate batching of commands. 
 
 Its not the most sexy bit of the update, and on the face of it there isn't much to see, but this update means we can now batch up any part of the request process. 
 
 The result is that we don't have any long running tasks in the process anymore. The uSync.publisher can sync everything you throw at it and it won't hit any server timeouts!. 
 
-This removes any limits on how many content or media (or datatypes) can be processed in a signle request. meaning super big libraries of content can now be synced without timeout worries. 
+This removes any limits on how many content or media (or datatypes) can be processed in a single request. meaning super big libraries of content can now be synced without timeout worries. 
 
 So even when running on Azure Webapps with its [unmovable 230 second timeout](https://techcommunity.microsoft.com/t5/apps-on-azure/app-service-timeout-in-230-sec/m-p/1526934) you site will sync regardless of size. 
 
@@ -43,22 +43,22 @@ The dependency cache does this dependency calculation whenever you save (or publ
 
 When you then push or pull - the cache is used, and because it doesn't go near the database it's **super** fast.
 
-The cahce is kepy in sync for you, so you should never have to rebuild it, but if you do we have a nice interface that will do that.
+The cache is kept in sync for you, so you should never have to rebuild it, but if you do we have a nice interface that will do that.
 
 ![Rebuilding the uSync cache](/images/2020/cacherebuild.gif)
 
-With caching turned on the dependency cache which could take many seconds on a large site is now mesuired in milliseconds. 
+With caching turned on the dependency cache which could take many seconds on a large site is now measured in milliseconds. 
 
 *We are also working on Export/report cache to make those bits even faster, they will likely land in v8.10*
 
 ## 🧬 Real-time compare<sup>&trade;</sup>
-We've added a new feature to the remote content and media browsers! The browser now performs a checks with the server for diffrences while listing items.
+We've added a new feature to the remote content and media browsers! The browser now performs a checks with the server for differences while listing items.
 
-This means you now have a realtime view of diffrences between your sites. So can see quickly what needs syncing.
+This means you now have a realtime view of differences between your sites. So can see quickly what needs syncing.
 
 ![Realtime compare supports both content and media](/images/2020/realtimecompare.gif)
 
-The full push/pull process still does this too, but if you need a quick view of a folder to know if it's upto date then this is the feature for you.
+The full push/pull process still does this too, but if you need a quick view of a folder to know if it's up to date then this is the feature for you.
 
 ### Side-By-Side view
 
@@ -82,10 +82,10 @@ And thanks to the batch publishing, you can pull the whole site in one go no mat
 # 📣 Breaking changes
 The update of the publisher pipeline to support batching, means we have changed the process used by the javascript client and remote server end points to the point where they are not backwards compatible. That means two things:
 ### 1. All servers in a pipeline will need to be running 8.9 for it to work. 
-We've updated the internal api version if this doesn't match uSync.Publisher will tell you that the server is incompattible and not copy. 
+We've updated the internal api version if this doesn't match uSync.Publisher will tell you that the server is incompatible and not copy. 
 
 ### 2. Custom publishers will not work without some significant updates
-We tried not to do this, but maintaing the legacy publisher and new 'batch' aware publisher interface was going to mean a lot of reduntant and complex legacy code. 
+We tried not to do this, but maintaining the legacy publisher and new 'batch' aware publisher interface was going to mean a lot of redundant and complex legacy code. 
 
 If you have a custom publisher, we are keen to hear from you - we will happily work with you to update your publisher and get it working with the new publisher api. The new API is also simpler so hopefully it will help you to.
 
@@ -97,4 +97,4 @@ We are releasing this version as a release candidate because we do have some bre
 At the moment our plan is to have a few weeks release candidate phase, which would mean a release date early January.
 
 ---
-*Small', 'Big', 'Large', and 'Massive' are subjective terms: a Massive site for one person may be small for someone else, in testing this release we have scalled up our test sites of 50,000+ pages and 5,000+ images, with file sizes upto 100mb. A umbraco site of this size or above would need some specialist setup to perform well, but we are happy that uSync.Complete will work along side sites of that size*
+*Small', 'Big', 'Large', and 'Massive' are subjective terms: a Massive site for one person may be small for someone else, in testing this release we have scaled up our test sites of 50,000+ pages and 5,000+ images, with file sizes up to 100mb. A umbraco site of this size or above would need some specialist setup to perform well, but we are happy that uSync.Complete will work along side sites of that size*

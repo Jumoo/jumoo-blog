@@ -23,4 +23,4 @@ We knew from the beginning that we couldn't (and didn't want to) remove all the 
 
 the freedom this gave in the resident's section of the site to concentrate on service delivery was refreshing, and what allowed us write to the point content that tells people exactly what they want.
 
-_*boring is a subjective term, and we use it a bit flipiantly, the truth is we too are quite sad and think lots of it is intresting, sadly our users do not always agree with us._
+_*boring is a subjective term, and we use it a bit flipiantly, the truth is we too are quite sad and think lots of it is interesting, sadly our users do not always agree with us._

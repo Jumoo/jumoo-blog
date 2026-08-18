@@ -27,6 +27,6 @@ because our current version was v8.6.1 and umbraco was still at v8.6 at the time
 ## uSync Versions
 From now on we will follow our own version increments independent of Umbraco. We will be doing it in a similar way to umbraco Patches and non-breaking changes will go into a patch version (.eg v8.8.1 ) - while more significant changes that cause formats to alter or change our API in anyway will merrit a minor version upgrade (e.g 8.9).
 
-What we will do is continue both forward version and backwards compatilibty support. At the moment our latest release uSync v8.8 works on all Umbraco 8.x versions and we plan to continue that. 
+What we will do is continue both forward version and backwards compatibility support. At the moment our latest release uSync v8.8 works on all Umbraco 8.x versions and we plan to continue that. 
 
 

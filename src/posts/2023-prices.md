@@ -64,5 +64,5 @@ get the tools you need.
 
 ## Agency Licences  
 If you have an existing agency licence, price increases will not effect you until 
-it is time to renew the licence. Agency liceces run on 12 month cycles so if you purchase
+it is time to renew the licence. Agency licences run on 12 month cycles so if you purchase
 an agency licence before the 1st Oct 2024 it will be at the current £2,500 price.

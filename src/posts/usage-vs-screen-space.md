@@ -14,6 +14,6 @@ One of the little fun graphics we drew up when re-developing Liverpool.gov.uk wa
 
 This picture shows a simple story.
 
-On the left is the screen space taken up by various elements of the old Liverpool.gov.uk website – next to it is the usage of the page layed out by how much each area was viewed.It's very interesting – you can see right away news was over represented, and all of our tasks (purple) where stuck in a little box getting no love but all the traffic.
+On the left is the screen space taken up by various elements of the old Liverpool.gov.uk website – next to it is the usage of the page laid out by how much each area was viewed.It's very interesting – you can see right away news was over represented, and all of our tasks (purple) where stuck in a little box getting no love but all the traffic.
 
 this diagram was very powerful when it came to showing people just how mis-aligned the site was to customer need.

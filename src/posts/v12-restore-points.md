@@ -44,7 +44,7 @@ When creating the restore point you will be asked if you want to include media f
 > An example can be if you delete a property in a ContentType then when that element is Synced with another site, Umbraco will remove any content associated with that property from all pages that might be using it. 
 > So if you where to delete the `pageTitle` property from a content type you might loose all your page titles. 
 >
-> Creating a restore point before changes like this, can protect you from loosing content you might not be expecting to be removed.
+> Creating a restore point before changes like this, can protect you from losing content you might not be expecting to be removed.
 
 ### 3. Before a Sync-Pack Import
 Before you import changes from a Sync-Pack file using uSync.Exporter you are now given the option to create a restore point. 
@@ -58,7 +58,7 @@ Should the worst happen and you need to rollback to a restore point, you can do 
 
 ![Restore points dashboard](/images/2023/restore-point-dashboard.png)
 
-Simply select the restore point you wish to rollback to (or click on restore latest) and you will be given the opertunity to run a report on the restore point: 
+Simply select the restore point you wish to rollback to (or click on restore latest) and you will be given the opportunity to run a report on the restore point: 
 
 ![Restore point dialog](/images/2023/restore-point-check.png)
 

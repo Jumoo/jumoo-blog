@@ -11,7 +11,7 @@ This month's batch of council website updates appears to be brought to you by th
 <div class="center">![bromley_desktop](/images/2014/08/bromley_desktop.jpg)![bromley_desktop_aug](/images/2014/08/bromley_desktop_aug.jpg)</div>
 **Horsham ([http://www.horsham.gov.uk/](http://www.horsham.gov.uk/))**
 <div class="center">![horsham_desktop](/images/2014/08/horsham_desktop.jpg)![horsham_desktop_aug](/images/2014/08/horsham_desktop_aug.jpg)</div>
-**Poyws ([http://www.powys.gov.uk/en/](http://www.powys.gov.uk/en/))**
+**Powys ([http://www.powys.gov.uk/en/](http://www.powys.gov.uk/en/))**
 <div class="center">![powys_desktop](/images/2014/08/powys_desktop.jpg)![powys_desktop_aug](/images/2014/08/powys_desktop_aug.jpg)</div>
 **South Lakeland ([http://www.southlakeland.gov.uk/](http://www.southlakeland.gov.uk/))**
 <div class="center">**![southlakeland_desktop](/images/2014/08/southlakeland_desktop.jpg)**![southlakeland_desktop_aug](/images/2014/08/southlakeland_desktop_aug.jpg)</div>

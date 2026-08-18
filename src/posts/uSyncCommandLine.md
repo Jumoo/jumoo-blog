@@ -75,11 +75,11 @@ If you [head over to the repo](https://github.com/Jumoo/uSync.CommandLine/tree/m
 
 ## Write your own ?
 
-Extending the uSync command line commands is quite easy (we hope) - if you head over to the uSync.CommandLine repo, you can hopefully [see from how we have implimented the core commands](https://github.com/Jumoo/uSync.CommandLine/tree/master/uSync.Commands.Server/Commands) that the ISyncCommand interface allows you to add your own to the list. 
+Extending the uSync command line commands is quite easy (we hope) - if you head over to the uSync.CommandLine repo, you can hopefully [see from how we have implemented the core commands](https://github.com/Jumoo/uSync.CommandLine/tree/master/uSync.Commands.Server/Commands) that the ISyncCommand interface allows you to add your own to the list. 
 
 
 ## What about uSyncTriggers?
-The uSync.Cli .netCore successor to the uSyncTriggers command line tool, so if you have used uSyncTriggers for Umbraco 8 you hopefully should have a fairly pain free transition to the uSync.Cli the main diffrence is the uSync.Cli is built to be more flexible and handle multplie request commands (where a command requires multiple round trips).
+The uSync.Cli .netCore successor to the uSyncTriggers command line tool, so if you have used uSyncTriggers for Umbraco 8 you hopefully should have a fairly pain free transition to the uSync.Cli the main difference is the uSync.Cli is built to be more flexible and handle multplie request commands (where a command requires multiple round trips).
 
 ## No usync required?
 *If for some 'mad' reason you don't actually use uSync you can still use the uSync command line. the `uSync.Commands.Server` package contains only umbraco specific commands (such as rebuild the DB cache) and doesn't actually require the uSync package to run.*

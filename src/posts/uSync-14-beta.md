@@ -9,7 +9,7 @@ tags:
 [The Umbraco v14 beta is out!](https://our.umbraco.com/download/releases/1400) (6th March 2024), and as we try to be keep uSync as in sync as we can, we are releasing a beta version to go along with it. 
 
 # Umbraco v14
-Umbraco v14 is a complete rewrite of the Umbraco backoffice 'client', So AngularJs is gone, and in its place we have WebComponents, and new Management APIs. While these changes will make very little diffrence to how your webiste looks and behaves it does change quite a lot for package developers. 
+Umbraco v14 is a complete rewrite of the Umbraco backoffice 'client', So AngularJs is gone, and in its place we have WebComponents, and new Management APIs. While these changes will make very little difference to how your website looks and behaves it does change quite a lot for package developers. 
 
 The Umbraco v14 beta is very much aimed at package developers, and the [new Documentation](https://docs.umbraco.com/umbraco-cms/v/14.latest-beta/) is definitely the place to start looking.
 
@@ -27,7 +27,7 @@ In the long term we are looking to make this work, and you can see the start of 
 
 ![uSync beta legacy warning box](/images/2024/usync-14-legacy.png)
 
-But this means for the beta, while you could get some mileage from "simply" copying the v13 files, you might see that some of the datatype configuration settings don't make it across. Don't worry, we'll be on top of this in the final relase. 
+But this means for the beta, while you could get some mileage from "simply" copying the v13 files, you might see that some of the datatype configuration settings don't make it across. Don't worry, we'll be on top of this in the final release. 
 
 ## What Isn't Beta
 We are working on all our extra packages, such as [uSync.Complete](https://jumoo.co.uk/uSync/complete/), [uSync.FormsEdition](https://jumoo.co.uk/uSync/forms/), and uSync.Umbraco.Commerce. As the betas and release candidates progress, we will release those packages alongside the uSync beta. For now, you just have the core uSync package should you need it. 

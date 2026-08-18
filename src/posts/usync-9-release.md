@@ -8,7 +8,7 @@ tags:
 
 Umbraco 9 is out ! 🎉 and we can all now enjoy the wonderful world of Umbraco running on .Net 5.0.
 
-Because we like to keep up, uSync9 and uSync.Complete 9 are also out today ⚡ So while you are developing your shiny new .NetCore website, you can keep things upto date and in sync.
+Because we like to keep up, uSync9 and uSync.Complete 9 are also out today ⚡ So while you are developing your shiny new .NetCore website, you can keep things up to date and in sync.
 
 Any when you're ready to hand it over to a client, they can use uSync.Complete's award winning features to push and pull content and media between their Umbraco sites. 
 

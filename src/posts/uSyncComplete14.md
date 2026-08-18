@@ -6,7 +6,7 @@ tags:
   - uSync
 ---
 
-A bit after the release of Umbraco v14, we are finnaly ready to announce full v14 release of the uSync.Compelte packages!
+A bit after the release of Umbraco v14, we are finally ready to announce full v14 release of the uSync.Complete packages!
 
 ## uSync v14
 
@@ -14,21 +14,21 @@ uSync for Umbraco v14 has been out since the release date of Umbraco v14 and all
 
 ![uSync v14 dashboard.](/images/2024/usync-14.png)
 
-v14.2 of uSync - tidies up some of the rought edges in the UI, enhances the inbuild mini-migrations that uSync does when you import from Umbraco v13 and generally is a little more solid and reliable on the latest versions of Umbraco.
+v14.2 of uSync - tidies up some of the rough edges in the UI, enhances the built-in mini-migrations that uSync does when you import from Umbraco v13 and generally is a little more solid and reliable on the latest versions of Umbraco.
 
 ## uSync.Complete v14.2
 
 The first full release of uSync.Complete for Umbraco v14 is version 14.2 - we have done this because the uSync.Complete release requires Umbraco v14.2 and so the versions are unified.
 
-uSync.Complete v14 contains all the same packages as previous versions of uSync brought upto date for the new Umbraco UI and inline with backend v14 code changes
+uSync.Complete v14 contains all the same packages as previous versions of uSync brought up to date for the new Umbraco UI and inline with backend v14 code changes
 
 ![uSync Publisher but in v14!](/images/2024/publisher.png)
 
 ### Jumoo.Processing Engine.
 
-Under the hood, uSync.Complete v14 is using our new internal processing engine that manages long running multi-step processes within umbraco and offers us a lot more flexiblity in how we run things within all of the uSync.Complete packages.
+Under the hood, uSync.Complete v14 is using our new internal processing engine that manages long running multi-step processes within umbraco and offers us a lot more flexibility in how we run things within all of the uSync.Complete packages.
 
-The processing engine is probibly the main reasons why we've had a bit of delay in getting uSync.Complete ready for Umbraco v14 but it does mean that going forward we have a solid platform to add and manage the complex processes in uSync.Complete (and we are going using the same processing the engine for Translation Manager!)
+The processing engine is probably the main reasons why we've had a bit of delay in getting uSync.Complete ready for Umbraco v14 but it does mean that going forward we have a solid platform to add and manage the complex processes in uSync.Complete (and we are going using the same processing the engine for Translation Manager!)
 
 _At this time we don't think we will be opening up the processing engine as its own package, but maybe once we've gotten our packages out we might polish some docs and get it out there._
 

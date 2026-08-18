@@ -21,7 +21,7 @@ As I said in the last post, when we looked at the visitor profile of our **exte
 
 Landing pages are heavily used, and they make up a large proportion of the popular pages on the site. When we look at the analytics, people do use the links on the pages to get to their destination. They have little choice, if we're honest - these pages are nothing but navigation.
 
- [![](/images/2012/03/Landing-Page-Stats.png "Landing Page Stats")](/images/2012/03/Landing-Page-Stats.png) Landing Page signposts with click-thoughs 
+ [![](/images/2012/03/Landing-Page-Stats.png "Landing Page Stats")](/images/2012/03/Landing-Page-Stats.png) Landing Page signposts with click-throughs 
 
 We continually look at the stats for these pages and we balance the usage, so the most popular link should be first, and less popular ones are pushed down - even into the "More" section, if they are hardly used. We're aiming to keep the pages clean for the majority of users.
 
