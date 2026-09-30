@@ -1,20 +1,28 @@
 ---
-title: uSync.Complete 17.5
+title: uSync.Complete 17.5 / 18.2
 date: 2026-09-30 14:00:00
 tags:
   - uSync
   - Umbraco
 ---
 
-uSync.Complete 17.5 is out. It's a big one. Publisher supports load-balanced servers, the Publisher browser and server list have had a lot of attention, and there's now a TimeMachine, so you can travel back in time!
+uSync.Complete 17.5 (Umbraco 17) and 18.2 (Umbraco 18) are out. They have the same features, and it's a big release. Publisher supports load-balanced servers, the Publisher browser and server list have had a lot of attention, and there's now a TimeMachine, so you can travel back in time!
+
+For Umbraco 17:
 
 <pre class="nuget">
 dotnet add package uSync.Complete --version 17.5.0
 </pre>
 
+For Umbraco 18:
+
+<pre class="nuget">
+dotnet add package uSync.Complete --version 18.2.0
+</pre>
+
 # Load balancing
 
-17.5 adds support for running Publisher against load-balanced servers, including a load-balanced backoffice.
+17.5 / 18.2 adds support for running Publisher against load-balanced servers, including a load-balanced backoffice.
 
 A push or pull is a series of requests, and each one builds on files the last one left on the server. So the whole series needs to reach the same server.
 
@@ -65,7 +73,7 @@ There is a full write-up on the [load balancing docs page](https://docs.jumoo.co
 
 Something changed on the site, and nobody is quite sure who did it, when, or what it looked like before. uSync can tell you what's different between your site and the uSync folder, but it can't tell you the history.
 
-TimeMachine is new in 17.5, and it records what happens to your site as a timeline. "Kevin updated Home." "Kevin imported 59 changes." Each event lists the items it touched, with a property-level diff of what changed.
+TimeMachine is new in 17.5 / 18.2, and it records what happens to your site as a timeline. "Kevin updated Home." "Kevin imported 59 changes." Each event lists the items it touched, with a property-level diff of what changed.
 
 ![The TimeMachine timeline, showing a day's events grouped by user and source](/images/2026/timemachine-timeline.png)
 
@@ -125,16 +133,24 @@ You can also now sort your servers. "Sort servers" on the Publisher node in the 
 - **Server json is back.** The small "Server json" button in the footer of the Publisher dashboard, from the v13 version, is back. It shows your server setup as json, which you can save as `usync-servers.json` in the root of a new site to seed its servers on install.
 - **Missing labels.** Snapshot labels were showing as raw keys, and so were a handful of item types in Publisher (domains, relation types, webhooks, users and user groups). Both are fixed.
 - **Smaller fixes.** The Publisher browser and Compare dialog show the right status for every item in a folder, saving a server no longer loses a re-sort done while its settings were open, the unsaved-changes dialog has clearer choices, and the backoffice text has had a spelling and grammar pass.
-- **uSync 17.4.3.** Complete now builds on the latest uSync release.
+- **Latest uSync.** Complete now builds on the latest uSync release for each version.
 
 # Getting it
 
-uSync.Complete 17.5 is on NuGet now:
+uSync.Complete 17.5 and 18.2 are on NuGet now.
+
+For Umbraco 17:
 
 <pre class="nuget">
 dotnet add package uSync.Complete --version 17.5.0
 </pre>
 
-The full list of changes is in the [release notes](https://github.com/Jumoo/uSync.Complete.Issues/releases/tag/v17.5.0), and the [docs](https://docs.jumoo.co.uk) have the details on the new settings.
+For Umbraco 18:
+
+<pre class="nuget">
+dotnet add package uSync.Complete --version 18.2.0
+</pre>
+
+The full list of changes is in the release notes for [v17.5.0](https://github.com/Jumoo/uSync.Complete.Issues/releases/tag/v17.5.0) and [v18.2.0](https://github.com/Jumoo/uSync.Complete.Issues/releases/tag/v18.2.0), and the [docs](https://docs.jumoo.co.uk) have the details on the new settings.
 
 Enjoy!
