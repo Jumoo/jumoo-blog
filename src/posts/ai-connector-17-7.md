@@ -68,7 +68,7 @@ this version on its own now, and it will be included in the next Jumoo.Translati
 release (v17.9.3)._
 
 You can see the full list of changes in the
-[GitHub release](https://github.com/Jumoo/Jumoo.TranslationManager.AI/releases/tag/v17.7.0),
+[release notes](https://releases.jumoo.co.uk/package.html?name=Jumoo.TranslationManager.AI#v17.7.0),
 and there's more on setting up the connector in [the docs](https://docs.jumoo.co.uk).
 
 Enjoy!
