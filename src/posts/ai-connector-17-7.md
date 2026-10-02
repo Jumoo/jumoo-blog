@@ -26,7 +26,7 @@ for a job dropped by around 40%.
 
 The overall saving is smaller than that, because most AI providers charge a lot more for the
 tokens they send back than the ones you send them, and the translated text itself doesn't
-get any shorter. Across our test runs we have seen around an 8% reduction in token costs. Not
+get any shorter. Across our test runs we have seen around **an 8% reduction in token costs**. Not
 earth shattering, but it's free, and on a big site it adds up.
 
 ## More reliable
