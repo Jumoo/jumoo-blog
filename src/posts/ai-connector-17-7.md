@@ -16,8 +16,8 @@ dotnet add package Jumoo.TranslationManager.AI
 ## Fewer requests
 
 In 17.7 the connector batches things up better. It gathers everything on a page together and
-sends it to the AI in as few requests as it can. On our test site, a 25 page job now takes 27
-requests where it used to take 102, and the time spent waiting on the AI roughly halved.
+sends it to the AI in as few requests as it can. In our tests that reduced the number of
+requests by around 70%, and cut the time spent waiting on the AI by more than half.
 
 ## Lower costs
 
