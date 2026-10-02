@@ -63,6 +63,10 @@ The update is available on NuGet now.
 dotnet add package Jumoo.TranslationManager.AI
 </pre>
 
+_The AI connector is included in the main Jumoo.TranslationManager package. You can install
+this version on its own now, and it will be included in the next Jumoo.TranslationManager
+release (v17.9.3)._
+
 You can see the full list of changes in the
 [GitHub release](https://github.com/Jumoo/Jumoo.TranslationManager.AI/releases/tag/v17.7.0),
 and there's more on setting up the connector in [the docs](https://docs.jumoo.co.uk).
