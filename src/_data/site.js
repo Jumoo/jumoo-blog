@@ -3,5 +3,5 @@ module.exports = {
   name: "Jumoo Blog",
   description:
     "Jumoo is a digital services company specialising in helping people build evidence based, customer focused, digital services.",
-  image: "/images/2013/06/logo-blue-lg.png",
+  image: "/images/og-default.png",
 };
