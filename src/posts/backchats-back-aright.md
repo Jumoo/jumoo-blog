@@ -15,6 +15,8 @@ dotnet add package Umbraco.Community.PowerToys
 
 ## Chat
 
+BackChat started life at the Spark hackathon back in 2024, but we never got round to actually publishing it. It's a better fit inside Power Toys anyway, so that's where it's ended up.
+
 ![The BackChat panel open beside the About page, with a conversation between two editors and lines showing when the page was saved and published](/images/2026/backchat-chat.jpg)
 
 - **Chat from the header.** The panel opens beside the page, so you can keep moving around the site while it's open.
