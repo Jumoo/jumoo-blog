@@ -7,7 +7,7 @@ tags:
 
 <iframe style="width: 100%; aspect-ratio: 16 / 9; border: 0;" src="https://www.youtube-nocookie.com/embed/6M6samPEMpM" title="Backstreet Boys - Everybody (Backstreet's Back)" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Power Toys 17.1 is out, and it brings BackChat with it: chat, tasks and review reminders for the Umbraco backoffice. Each one is a power toy, so you turn on the bits you want from the Power Toys dashboard.
+[Power Toys for Umbraco](https://powertoys.jumoo.co.uk) 17.1 is out, and it brings BackChat with it: chat, tasks and review reminders for the Umbraco backoffice. Each one is a power toy, so you turn on the bits you want from the Power Toys dashboard.
 
 <pre class="nuget">
 dotnet add package Umbraco.Community.PowerToys
