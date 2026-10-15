@@ -9,7 +9,7 @@ tags:
 
 _<small>// sorry marc</small>_
 
-[Power Toys for Umbraco](https://powertoys.jumoo.co.uk) 17.1 is out, and it brings BackChat with it: chat, tasks and review reminders for the Umbraco backoffice. Each one is a power toy, so you turn on the bits you want from the Power Toys dashboard.
+[Power Toys for Umbraco](https://powertoys.jumoo.co.uk) 17.2 is out, and it brings BackChat with it: chat, tasks and review reminders for the Umbraco backoffice, plus a new Keyboard Shortcuts power toy. Each one is a power toy, so you turn on the bits you want from the Power Toys dashboard.
 
 <pre class="nuget">
 dotnet add package Umbraco.Community.PowerToys
@@ -48,7 +48,16 @@ BackChat started life at the [Package Jam at Umbraco Spark 2025](https://gibe.di
 
 _Reminders are part of Tasks, and you switch them on in the Tasks settings._
 
-Have a look at [the docs](https://powertoys.jumoo.co.uk) for all the details, and the [release notes on GitHub](https://github.com/Jumoo/umbraco.community.powertoys/releases/tag/v17.1.0).
+## Keyboard shortcuts
+
+![The Keyboard Shortcuts panel beside the About page, listing save and save and publish, then the keys that work everywhere, in search and in the rich text editor](/images/2026/powertoys-keyboard-shortcuts.jpg)
+
+- **Press ?** Or use the header button, and a panel lists the shortcuts that work on the screen you're on.
+- **Read live.** The list comes from Umbraco itself, so it changes as you move around the site.
+- **Your own shortcuts.** Add shortcuts to jump to a section or URL, open search or a panel, or run an action on the item you have open.
+- **Sections out of the box.** Alt+1 to Alt+9 go to the sections in the order the header shows them.
+
+Have a look at [the docs](https://powertoys.jumoo.co.uk) for all the details, and the [release notes on GitHub](https://github.com/Jumoo/umbraco.community.powertoys/releases/tag/v17.2.0).
 
 <pre class="nuget">
 dotnet add package Umbraco.Community.PowerToys
