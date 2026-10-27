@@ -26,7 +26,7 @@ That's what a glossary is.
 
 The Glossary sits in the **Translations** section, below the job lists, next to Translation Memory. The Translations dashboard shows how many terms you have.
 
-<!-- TODO screenshot: the Glossary list in the Translations section (images/2026/glossary-list.png) -->
+![The Glossary in the Translations section, showing English terms with their German values, three marked Do not translate and one still missing](/images/2026/glossary-list.png)
 
 Seeing it needs the new **View glossary** permission. On upgrade only Administrators get it, so you'll need to add it to any other groups that should have it (and if you were logged in during the upgrade, log out and back in to see it).
 
@@ -34,7 +34,7 @@ Seeing it needs the new **View glossary** permission. On upgrade only Administra
 
 A term is a bit of source text in a source language, with a value for each language you translate into. For each language you can either give the translation it must use, or switch on **Do not translate**, and the term is left exactly as written.
 
-<!-- TODO screenshot: editing a glossary term with values and a do-not-translate language (images/2026/glossary-term.png) -->
+![Editing the term workflow: a note explaining which meaning it covers, and its German and French values](/images/2026/glossary-term.png)
 
 Terms can be case sensitive (off by default), which matters when "IT" the department and "it" the word need to be treated differently. There's also a notes field for your own benefit. Notes are never sent to the translation service.
 
@@ -48,6 +48,8 @@ So you can import and export in two formats:
 
 - **CSV.** One language pair per file, with the culture codes in the header row (`en-US,fr-FR`). An optional third column, `doNotTranslate`, set to `true` marks a term that should be left alone. The export opens properly in Excel.
 - **TBX.** The standard term base exchange format that translation tools and agencies use. A TBX file can carry every language at once.
+
+![The Import Glossary dialog, importing an English to German CSV file](/images/2026/glossary-import.png)
 
 _Importing replaces the values for the target language rather than merging with them, and the import tells you so before it starts. If the file can't be read, nothing changes._
 
