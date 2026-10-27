@@ -22,7 +22,7 @@ Real changes don't usually look like that. An editor spends a week working on a 
 
 The queue is switched on per server. Tick **Allow queuing** on the server's Permissions view in the Publisher settings, and users can add items to their queue and push them to that server from the Sync Queue dashboard.
 
-<!-- TODO screenshot: the "Allow queuing" toggle on a server's Permissions view (images/2026/sync-queue-settings.png) -->
+![The Allow queuing toggle on a server's Permissions view, under the user groups who can push to it](/images/2026/sync-queue-settings.png)
 
 It's off by default. If no server allows queuing, nobody sees any of this.
 
@@ -30,7 +30,7 @@ It's off by default. If no server allows queuing, nobody sees any of this.
 
 Once a server allows it, **Add to queue** shows up in the actions menu for content and media, and for settings items too (document types, data types, templates and the rest). It's also in the content editor's push menu, and on the content and media browser dashboards.
 
-<!-- TODO screenshot: "Add to queue" in the content actions menu (images/2026/sync-queue-add.png) -->
+![Add to queue in the actions menu for a content node, below Push to server and Pull from server](/images/2026/sync-queue-add.png)
 
 You only see it if you're allowed to push to a server that has queuing turned on.
 
@@ -38,7 +38,7 @@ You only see it if you're allowed to push to a server that has queuing turned on
 
 Everything you've queued lands on the new **Sync Queue** dashboard in the Content section. The queue is yours, other people have their own, and it's kept in the database so it's still there tomorrow.
 
-<!-- TODO screenshot: the Sync Queue dashboard with a few items queued (images/2026/sync-queue-dashboard.png) -->
+![The Sync Queue dashboard with content, media, a document type and a data type queued, and Include children turned on for the Welcome page](/images/2026/sync-queue-dashboard.png)
 
 Each item has its own **Include children** toggle, so you can send a whole section in one row and just the page itself in the next. Pick the items you want, press **Push selected**, choose the server, and you're into the normal push dialog, with the usual report of what's going to change before anything does.
 
