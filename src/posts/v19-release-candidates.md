@@ -20,9 +20,7 @@ These are release candidates, so you'll need to include prereleases to see them 
 - [Translation Manager](https://www.nuget.org/packages/Jumoo.TranslationManager/19.0.0-rc1)
 - [Maintenance Mode](https://github.com/Jumoo/Our.Umbraco.MaintenanceMode/releases/tag/v19.0.0-rc1)
 
-<pre class="nuget">
-dotnet add package uSync.Complete --version 19.0.0-rc1
-</pre>
+You can see the latest versions of all our packages on [releases.jumoo.co.uk](https://releases.jumoo.co.uk).
 
 The rest of our packages will follow before the full v19 release.
 
