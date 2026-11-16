@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 function ordinal(n) {
   const s = ["th", "st", "nd", "rd"];
@@ -16,6 +17,10 @@ function tagSlug(tag) {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(pluginRss);
+
+  // First n items of a collection (the feed carries the newest 20 posts).
+  eleventyConfig.addFilter("head", (items, n) => items.slice(0, n));
 
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/assets");
