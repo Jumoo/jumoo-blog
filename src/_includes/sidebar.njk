@@ -1,33 +1,33 @@
-<div class="sidebar-module">
-  <h4>About</h4>
-  <p>We are Jumoo a digital services company, helping people build customer focused, evidence based, digital stuff.</p>
-</div>
+<section class="sidebar-module">
+  <h2>About</h2>
+  <p>{{ site.tagline }}. More at <a href="{{ site.home }}/">jumoo.co.uk</a>.</p>
+</section>
 
-<div class="sidebar-module">
-  <h4>Tags</h4>
-  <ul class="tag-list">
-    {% for tag in collections.tagList %}
-    <li><a href="{{ ('/tags/' + (tag | tagSlug) + '/') | url }}">{{ tag }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div class="sidebar-module">
-  <h4>Archives</h4>
-  <ul class="archive-list">
-    {% for year in collections.years %}
-    <li><a href="{{ ('/archives/' + year + '/') | url }}">{{ year }} <span class="sidebar-module-list-count">{{ (collections.posts | byYear(year)).length }}</span></a></li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div class="sidebar-module">
-  <h4>Recents</h4>
-  <ul class="recents-list">
+<section class="sidebar-module">
+  <h2>Recent posts</h2>
+  <ul class="plain recents-list">
     {% for post in collections.posts %}
     {% if loop.index <= 5 %}
     <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
     {% endif %}
     {% endfor %}
   </ul>
-</div>
+</section>
+
+<section class="sidebar-module">
+  <h2>Archives</h2>
+  <ul class="plain archive-years">
+    {% for year in collections.years %}
+    <li><a href="{{ ('/archives/' + year + '/') | url }}">{{ year }} <span class="count">{{ (collections.posts | byYear(year)).length }}</span></a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="sidebar-module">
+  <h2>Tags</h2>
+  <ul class="plain tag-cloud">
+    {% for tag in collections.tagList %}
+    <li><a href="{{ ('/tags/' + (tag | tagSlug) + '/') | url }}">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

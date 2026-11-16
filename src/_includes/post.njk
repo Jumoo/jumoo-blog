@@ -1,21 +1,21 @@
 ---
 layout: base.njk
 ---
-<article class="article-entry">
-  <h1>{{ title }}</h1>
-  <div class="article-header-meta">
-    <div class="article-meta">
-      <span class="article-date">{{ date | readableDate }}</span>
-    </div>
+<article class="post">
+  <header class="post-head">
+    <h1>{{ title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ date | isoDate }}">{{ date | readableDate }}</time>
+    </p>
     {% if tags.length %}
-    <ul class="article-tag-list">
+    <ul class="tag-list">
       {% for tag in tags %}
-      <li><a href="{{ ('/tags/' + (tag | tagSlug) + '/') | url }}">{{ tag }}</a></li>
+      <li><a class="tag" href="{{ ('/tags/' + (tag | tagSlug) + '/') | url }}">{{ tag }}</a></li>
       {% endfor %}
     </ul>
     {% endif %}
-  </div>
-  <div class="article-content">
+  </header>
+  <div class="prose">
     {{ content | safe }}
   </div>
 </article>
