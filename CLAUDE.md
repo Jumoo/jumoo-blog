@@ -31,9 +31,15 @@ Voice, structure and formatting conventions for post content live in
 
 ## Style
 
-- `src/style.css` is hand-written, no Bootstrap/FontAwesome/CDN framework —
-  intentional simplification vs. the original Hexo theme. Keep it that way;
-  don't reintroduce a CSS framework dependency.
-- Visual identity intentionally matches the original site: navy header/footer
-  (`#292c44`), blue accent (`#4f80e1`), Lato body / Barlow headings / Pacifico
-  wordmark for "jumoo".
+- `src/style.css` is hand-written, no Bootstrap/FontAwesome/CDN framework.
+  Keep it that way; don't reintroduce a CSS framework dependency.
+- The look matches jumoo.co.uk (`D:\Source\Jumoo\simple-site`, design
+  system in `src/assets/css/site.css`) and the Jumoo brand repo. The tokens
+  block, header, footer and theme toggle are copies of the site's — when the
+  site's tokens change, change them here too. Where the brand repo and the
+  site disagree, the site wins.
+- Light by default, ignoring the OS preference. Dark only via the footer
+  toggle (`data-theme` on `<html>`, stored in localStorage as `jumoo-theme`).
+- Headings Barlow 400, body system UI stack. Pacifico appears only inside the
+  outlined wordmark SVG — load no Pacifico font. Links `#1c4899`
+  (`--accent-ink`), buttons/focus `#2f6fe4` (`--accent`).

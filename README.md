@@ -50,11 +50,15 @@ Opens at `http://localhost:8080`.
 - `src/tags.njk` — generates one `/tags/<tag>/` page per tag.
 - `src/archives.njk` — generates one `/archives/<year>/` page per year.
 - `src/index.njk` — homepage: all posts grouped by year, newest first.
-- `src/_includes/` — `base.njk` (page shell), `sidebar.njk` (about/tags/archives/recents),
-  `post.njk` (single post layout), `archive-list.njk` (shared year-grouped post list).
-- `src/style.css` — hand-written styles matching the original site's look
-  (navy header, blue footer accent, Lato/Barlow/Pacifico fonts) — no Bootstrap
-  or FontAwesome dependency.
+- `src/_includes/` — `base.njk` (page shell: header, footer, light/dark toggle),
+  `sidebar.njk` (about/recents/archives/tags), `post.njk` (single post layout),
+  `archive-list.njk` (shared year-grouped post list), `partials/wordmark.njk`
+  (the outlined "Jumoo" wordmark SVG, copied from jumoo.co.uk).
+- `src/style.css` — hand-written styles, no framework. Tokens, header, footer
+  and theme toggle are carried over from jumoo.co.uk's design system
+  (`simple-site/src/assets/css/site.css`) so the blog matches the main site.
+- `src/assets/` — self-hosted Barlow fonts and the brand favicons (Ju badge),
+  also copied from the main site.
 
 ## CI/CD
 

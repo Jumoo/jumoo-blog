@@ -1,14 +1,14 @@
 {% for post in posts %}
 {% set postYear = post.date | year %}
 {% if loop.first or postYear != (posts[loop.index0 - 1].date | year) %}
-  {% if not loop.first %}</div>{% endif %}
-<div class="archive-year-wrap">
-  <a href="{{ ('/archives/' + postYear + '/') | url }}" class="archive-year">{{ postYear }}</a>
-</div>
-<div class="archives">
+  {% if not loop.first %}</ol></section>{% endif %}
+<section class="post-year">
+  <h2 class="post-year__head"><a href="{{ ('/archives/' + postYear + '/') | url }}">{{ postYear }}</a></h2>
+  <ol class="post-list">
 {% endif %}
-  <article class="archive-article">
-    <h1><a href="{{ post.url | url }}">{{ post.data.title }}</a></h1>
-  </article>
-{% if loop.last %}</div>{% endif %}
+    <li class="post-list__item">
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      <time datetime="{{ post.date | isoDate }}">{{ post.date | shortDate }}</time>
+    </li>
+{% if loop.last %}</ol></section>{% endif %}
 {% endfor %}

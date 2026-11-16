@@ -18,8 +18,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
   eleventyConfig.addPassthroughCopy("src/style.css");
-  eleventyConfig.addPassthroughCopy("src/nav.js");
-  eleventyConfig.addPassthroughCopy("src/fonts");
+  eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/CNAME");
 
@@ -31,6 +30,16 @@ module.exports = function (eleventyConfig) {
     const dt = DateTime.fromJSDate(dateObj, { zone: "utc" });
     return `${dt.toFormat("cccc, LLLL")} ${ordinal(dt.day)} ${dt.year}`;
   });
+
+  eleventyConfig.addFilter("shortDate", (dateObj) =>
+    DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("d LLL")
+  );
+
+  eleventyConfig.addFilter("isoDate", (dateObj) =>
+    DateTime.fromJSDate(dateObj, { zone: "utc" }).toISODate()
+  );
+
+  eleventyConfig.addFilter("currentYear", () => new Date().getFullYear());
 
   eleventyConfig.addFilter("tagSlug", tagSlug);
 
