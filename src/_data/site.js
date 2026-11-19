@@ -2,8 +2,9 @@ module.exports = {
   url: "https://blog.jumoo.co.uk",
   name: "Jumoo Blog",
   description:
-    "Jumoo is a digital services company specialising in helping people build evidence based, customer focused, digital services.",
+    "News, releases and notes from Jumoo on uSync, Translation Manager and Umbraco.",
   image: "/images/og-default.png",
+  imageAlt: "The Jumoo wordmark and blog.jumoo.co.uk",
 
   // The main Jumoo site, and the other sites that hang off it. The header and
   // footer link back to these, matching jumoo.co.uk's own header and footer.
