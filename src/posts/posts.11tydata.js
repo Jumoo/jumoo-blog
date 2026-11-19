@@ -14,6 +14,28 @@ const firstImage = (inputPath) => {
   return undefined;
 };
 
+// A plain-text summary for the share preview: the post's first prose paragraph,
+// markdown stripped, cut at a word boundary. Posts can set `description:` instead.
+const excerpt = (inputPath, max = 200) => {
+  const body = fs.readFileSync(inputPath, "utf8").replace(/^---[\s\S]*?\r?\n---/, "");
+  const paragraph = body
+    .replace(/```[\s\S]*?```/g, "")
+    .split(/\r?\n\s*\r?\n/)
+    .map((p) => p.trim())
+    // Skip headings, quotes, images, html, tables, lists, rules and [bracketed notes].
+    .find((p) => p && !/^(#|>|!\[|<|\||[-*+] |\d+\. |---)/.test(p) && !/^[*_]*\[[^\]]*\][*_]*$/.test(p));
+  if (!paragraph) return undefined;
+  const text = paragraph
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/<[^>]+>/g, "")
+    .replace(/[*_`~]+/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (text.length <= max) return text;
+  return text.slice(0, text.lastIndexOf(" ", max)).replace(/[\s,.;:!?-]+$/, "") + "…";
+};
+
 module.exports = {
   layout: "post.njk",
   templateEngineOverride: "md",
@@ -25,5 +47,6 @@ module.exports = {
     },
     // frontmatter `image:` wins, then the post's first image, then site.image.
     image: (data) => data.image || firstImage(data.page.inputPath),
+    description: (data) => data.description || excerpt(data.page.inputPath),
   },
 };
