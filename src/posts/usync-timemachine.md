@@ -6,7 +6,7 @@ tags:
   - Umbraco
 ---
 
-uSync.TimeMachine records every change made to your site, and it lets you roll any of them back: one property on one page, or a whole import of hundreds of items, in a couple of clicks.
+uSync.TimeMachine records every change made to your site, and it lets you roll any of them back: a single edit to one page, or a whole import of hundreds of items, in a couple of clicks.
 
 It arrived in [17.5 / 18.2](/2026/usync-complete-17-5), and with a few releases behind it we wanted to show it off properly.
 
